@@ -142,7 +142,7 @@ form.add-course {
   font-style: italic;
 }
 
-.add-course input[name="startTime"] {
+.add-course input[name="startTime"], .add-course input[name="endTime"] {
   width: 70px;
 }
 /* search */
@@ -300,7 +300,7 @@ height: 1%;
           <option value="Y">Year</option>
         </select>
       </p>
-      <p><label>Start Time:</label><input type="text" name="startTime" /> <span>e.g. 4:15 PM</p>
+      <p><label>Start Time:</label><input type="text" name="startTime" /> <label>End Time:</label><input type="text" name="endTime" /> <span>e.g. 4:15 PM</p>
       <input type="submit" name="submit" id="add-course-submit" class="button" value="Add Course" />
       <ul id="custom-courses"></ul>
     </form>
@@ -458,7 +458,7 @@ $.ajax({
       //For hiding reference
       obj.id = buttonID;
 
-      if(obj.title !== "" && obj.startTime !== "") {
+      if(obj.title !== "" && obj.startTime !== "" && obj.endTime !== "") {
         userCourses.push(obj);
         makeTimeTable(userCourses);
 
@@ -558,6 +558,7 @@ $.ajax({
           var selection = data[dataCode[0]].offerings[dataCode[1]];
           var courseDay = convertWeekDay(selection.day);
           var startTime = convertTime(selection.startTime);
+          var endTime = convertTime(getEndTime(startTime, selection.duration));
           var id = courses[c];
         } else {
           //it's a custom course
@@ -567,19 +568,22 @@ $.ajax({
             selection.term = courses[c].term;
             selection.catalogueCode = 'custom';
           var startTime = courses[c].startTime;
+          var endTime = courses[c].endTime;
           var courseDay = courses[c].day;
           var id = courses[c].id;
           //Make the button for the custom course;
           $("#custom-courses").append('<li><input class="add-course-button" type="checkbox" checked="true" title="1" id="'+ id + '" /><label for="'+id+'">'+courseName+'</label></li>');
         }
           
+          console.log(endTime);
+
           var myCourseText = '<li for="'+id+'">' + courseCode + " " + courseName + ": " + 
               courseDay.substring(0,3) + " at " + startTime + " [" + selection.catalogueCode + "]</li>"
 
           //Add data
           if(selection.term === "F" || selection.term === "W") {
             var query = "#calendar-"+ selection.term + " .contents ." + courseDay;
-            $(query).append('<span for="' + id + '">'+ startTime + "<br /> " + courseName + "</span>");
+            $(query).append('<span for="' + id + '">'+ startTime +"&ndash;<br />" + endTime + "<br /><strong>" + courseName + "</strong></span>");
             //Add to list
             $("#myCourses ul." + selection.term).append(myCourseText);
           } else {
@@ -625,6 +629,19 @@ function makeSchedule() {
   }
 }
 
+function getEndTime(startTime, duration) {
+  var hour, min;
+  startArray = startTime.split(":");
+  hour = parseInt(startArray[0]);
+  min = parseInt(startArray[1]);
+  startMins = hour * 60 + min;
+
+  endTotalMins = startMins + parseInt(duration);
+  endHours = Math.floor(endTotalMins/60);
+  endMins = endTotalMins % 60;
+  return endHours + ":" + endMins;
+
+}
 function convertNumberToDay(w) {
     if(w === 1) {
       return "Monday";
