@@ -1,113 +1,346 @@
 <!-- Author: k88hudson -->
 <html>
 <head>
+<title>YSDN Courses 2012 2013</title>
+<link type="text/css" href="css/smoothness/jquery-ui-1.8.19.custom.css" rel="stylesheet" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen" title="no title" charset="utf-8">
 <style>
-  
-  body {
-    font-family: "Helvetica";
-    font-size: 100%;
-  }
-  .catalogueCode {
-    font-family: Monaco;
-    font-size: 12px;
-    color: #F32520;
-  }
-  ol {
-    list-style: none;
-    padding: 0;
-  }
-  ol li {
-    margin-bottom: 1em;
-  }
+/* @k88hudson */
 
-  #container {
-    width: 500px;
-  }
+body {
+  font-family: "Open Sans", Helvetica, sans-serif;
+  font-size: 100%;
+  background: #EEE;
+}
 
-  #calendars {
-    position: fixed;
-    right: 10px;
-    bottom: 10px;
-    width: 700px;
-  }
-  .calendar {
-    width: 100%;
-    border: 1px solid #000;
-    margin-bottom: 10px;
-  }
+h3, h4 {
+  margin: 0;
+}
 
-  .calendar .titles, .calendar .contents {
-    width: 100%;
-  }
+.catalogueCode {
+  font-family: Monaco;
+  font-size: 12px;
+  color: #F32520;
+}
+ol {
+  list-style: none;
+  padding: 0;
+}
+ol li {
+  margin-bottom: 1em;
+}
+.wrapper {
+  width: 1040px;
+  margin: 10px auto;
+}
 
-  .calendar .titles div, .calendar .contents div {
-    width: 20%;
-    float: left;
-    padding: 3px 0;
-  }
+.left-col, .right-col {
+  width: 500px;
+  margin-right: 20px;
+}
 
- .calendar .contents div {
-    min-height: 100px;
-  }
+.left-col {
+  float: left;
+}
 
-  .calendar .contents div span {
+.right-col {
+  float: right;
+}
+
+#window {
+  max-height: 600px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding-right: 20px;
+  padding-left: 10px;
+  float: left;
+  background: #FFF;
+}
+
+
+#container .row,  #container .row li {
+  display: none;
+} 
+
+#calendars {
+
+}
+.calendar {
+  width: 100%;
+  border: 1px solid #CCC;
+  background: #FFF;
+  margin-bottom: 10px;
+}
+
+.calendar .titles, .calendar .contents {
+  width: 100%;
+}
+
+.calendar .titles div, .calendar .contents div {
+  width: 20%;
+  float: left;
+}
+
+.calendar .titles div span {
     display: block;
-    font-size: 12px;
-    padding: 3px;
-    background: #EEE;
-    margin-bottom: 3px;
-  }
+    padding: 4px;
+    border-bottom: 1px solid #CCC;
+    border-right: 1px solid #CCC;
+    font-size: 14px;
+    font-weight: 600;
+}
 
-  a.on {
-    color: #98D337;
-  }
+.calendar .titles div:last-child span {
+  border-right: none;
+}
+
+.calendar .contents div {
+  min-height: 100px;
+}
+
+.calendar .contents div span {
+  display: block;
+  font-size: 12px;
+  padding: 5px;
+  background: #EEE;
+  margin: 2px 1px;
+  border-radius: 3px;
+  border: 1px solid lightGrey;
+}
+
+/* course list */
+#myCourses ul, #custom-courses {
+  list-style: none;
+  padding: 0;
+}
+
+#myCourses ul {
+  font-family: Monaco;
+  font-size: 12px;
+}
+
+#custom-courses li {
+  display: inline-block;
+  margin-bottom: 3px;
+}
+
+form.add-course {
+  background: #FFF;
+  padding: 10px;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.add-course label, .add-course p span{
+  margin-right: 5px;
+  font-size: 14px;
+}
+
+.add-course p span {
+  color: #AAA;
+  font-style: italic;
+}
+
+.add-course input[name="startTime"] {
+  width: 70px;
+}
+/* search */
+
+.ui-autocomplete {
+  max-height: 300px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-right: 20px;
+}
+
+#reset {
+  font-size: 14px;
+}
+
+#controls {
+  float: left;
+  width: 480px;
+}
+.sort-options, #search {
+  margin-bottom: 7px;
+}
+
+
+#search label {
+  margin-right: 5px;
+}
+
+#search input {
+  width: 400px;
+}
+
+input[type=text] {
+  border: 1px solid #CCC;
+  padding: 5px;
+  font-size: 12px;
+}
+
+input[type=text]:focus {
+  outline: none;
+  border: 1px solid #98D337;
+}
+
+.on {
+  display: block !important;
+}
+
+footer {
+  float: left;
+  width: 100%;
+  overflow-y: hidden;
+}
+
+
+/* clearfix */
 
 .clearfix:after {
-  content: ".";
-  display: block;
-  clear: both;
-  visibility: hidden;
-  line-height: 0;
-  height: 0;
+content: ".";
+display: block;
+clear: both;
+visibility: hidden;
+line-height: 0;
+height: 0;
 }
- 
+
 .clearfix {
-  display: inline-block;
+display: inline-block;
 }
- 
+
 html[xmlns] .clearfix {
-  display: block;
+display: block;
 }
- 
+
 * html .clearfix {
-  height: 1%;
+height: 1%;
+}
+
+/* ==|== print styles =======================================================
+ Print styles.
+ Inlined to avoid required HTTP connection: h5bp.com/r
+ ========================================================================== */
+
+@media print {
+  * { background: transparent !important; color: black !important; box-shadow:none !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important; } /* Black prints faster: h5bp.com/s */
+  a, a:visited { text-decoration: underline; }
+  a[href]:after { content: " (" attr(href) ")"; }
+  abbr[title]:after { content: " (" attr(title) ")"; }
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }  /* Don't show links for images, or javascript/internal links */
+  pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+  thead { display: table-header-group; } /* h5bp.com/t */
+  tr, img { page-break-inside: avoid; }
+  img { max-width: 100% !important; }
+  @page { margin: 0.5cm; }
+  p, h2, h3 { orphans: 3; widows: 3; }
+  h2, h3 { page-break-after: avoid; }
+
+
+  .left-col, .right-col {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  #controls { display: none !important; }
+  #window { max-height: none !important; padding: 0;}
+  .calendar .contents div span { padding: 15px;}
+  form {display: none !important;}
+
 }
 
 </style>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui-1.8.19.custom.min.js"></script>
+<script src="js/jquery.scrollTo-1.4.2-min.js" type="text/javascript" charset="utf-8"></script>
+
 
 </head>
 <body>
-<h1>YSDN 2012 &ndash; 2013</h1>
-<p>This is a list of all YSDN courses scraped from yorku.ca. Download the raw data as JSON <a href="results.json">here.</a></p>
-<p>Disclaimer: The last time the scraper was run was April 22, 2012. This is an experiment, so use at your own risk. If you find an error/bug please let me know (Tweet at @k88hudson, or email me)</p>
-<div id="calendars">
-  <h4>Fall</h4>
-  <div class="calendar" id="calendar-F">
-    <div class="titles clearfix"></div>
-    <div class="contents clearfix"></div>
-  </div>
+<div class="wrapper">
+  <h1>YSDN Courses 2012 &ndash; 2013</h1>
+  <div class="right-col">
+    <h2>Timetable <button id="reset">Reset all</button></h2>
+    
+    <div id="calendars">
+      <h4>Fall</h4>
+      <div class="calendar" id="calendar-F">
+        <div class="titles clearfix"></div>
+        <div class="contents clearfix"></div>
+      </div>
 
-  <h4>Winter</h4>
-  <div class="calendar" id="calendar-W">
-    <div class="titles clearfix"></div>
-    <div class="contents clearfix"></div>
-  </div>
-</div>
-<div id="container"></div>
+      <h4>Winter</h4>
+      <div class="calendar" id="calendar-W">
+        <div class="titles clearfix"></div>
+        <div class="contents clearfix"></div>
+      </div>
+    </div>
+    <form class="add-course">
+      <h4>Add a custom course:</h4>
+      <p><label>Course Name:</label><input type="text" name="title" /></p>
+      <p><label>Course Day:</label>
+        <select name="day">
+          <option value="Monday">Monday</option>
+          <option value="Tuesday">Tuesday</option>
+          <option value="Wednesday">Wednesday</option>
+          <option value="Thursday">Thursday</option>
+          <option value="Friday">Friday</option>
+        </select>
+        
+        <label>Course Term:</label>
+        <select name="term">
+          <option value="F">Fall</option>
+          <option value="W">Winter</option>
+          <option value="Y">Year</option>
+        </select>
+      </p>
+      <p><label>Start Time:</label><input type="text" name="startTime" /> <span>e.g. 4:15 PM</p>
+      <input type="submit" name="submit" id="add-course-submit" class="button" value="Add Course" />
+      <ul id="custom-courses"></ul>
+    </form>
+
+    <div id="myCourses">
+        <h2>List</h2>
+        <h4>Fall</h4>
+        <ul class="F"></ul>
+        <h4>Winter</h4>
+        <ul class="W"></ul>
+    </div>
+  </div><!--right-col-->
+  <div class="left-col">
+    <p>This is a list of all YSDN courses scraped from yorku.ca. Download the raw data as JSON <a href="https://github.com/k88hudson/ysdn-courses/blob/master/data.json">here.</a></p>
+    <p>Disclaimer: The last time the scraper was run was April 22, 2012. This is an experiment, so use at your own risk. If you find an error/bug please let me know (Tweet at @k88hudson, or email me)</p>
+    <div id="controls">
+      <div id="search"><label>Search:</label><input type="text" id="search-courses" /></div>
+       <div class="sort-options" for="courseCode">
+          <input type="checkbox" title="1" id="check1" /><label for="check1">Year 1</label>
+          <input type="checkbox" title="2" id="check2" /><label for="check2">Year 2</label>
+          <input type="checkbox" title="3" id="check3" /><label for="check3">Year 3</label>
+          <input type="checkbox" title="4" id="check4" /><label for="check4">Year 4</label>
+        </div>
+        <div class="sort-options" for="day">
+          <input type="checkbox" title="Monday" id="check5" /><label for="check5">Mon</label>
+          <input type="checkbox" title="Tuesday" id="check6" /><label for="check6">Tue</label>
+          <input type="checkbox" title="Wednesday" id="check7" /><label for="check7">Wed</label>
+          <input type="checkbox" title="Thursday" id="check8" /><label for="check8">Thu</label>
+          <input type="checkbox" title="Friday" id="check9" /><label for="check9">Fri</label>
+        </div>
+    </div>
+
+    <div id="window">
+      <div id="container"></div>
+    </div>
+  </div><!--left-col-->
+
+<footer>
+</footer>
+
+</div><!--wrapper-->
 
 <script>
-
 makeSchedule();
 
 $.ajax({
@@ -115,12 +348,18 @@ $.ajax({
   context: document.body,
   success: function(data){
 
-     for(var i = 0; i < data.length; i++) {
+    var autocompleteList = new Array(); //for search
+
+    for(var i = 0; i < data.length; i++) {
     
          var course = data[i];
-         //console.log(course);
 
-         var el = $('<div id="row-'+(i+1)+'"></div>');
+         autocompleteList.push({});
+         var searchEntry = autocompleteList[autocompleteList.length-1];
+         searchEntry.label = course.title.replace("&amp;", "and");
+         searchEntry.index = i;
+
+         var el = $('<div class="row" id="row-'+i+'"></div>');
          var elements = new Object();
 
          for( var key in course ) {
@@ -133,7 +372,7 @@ $.ajax({
               elements.title = '<span class="title">'+ value + '</span>';
             } else if (key === "courseCode") {
               //Course Code        
-              elements.courseCode = '<span class="courseCode">YSDN '+ value + '</span>';
+              elements.courseCode = 'YSDN <span class="courseCode">'+ value + '</span>';
             } else if (key === "credits") {
               //Credits
               elements.credits = '<span class="credits">' + value + '</span>';
@@ -143,9 +382,13 @@ $.ajax({
               for(var j = 0; j < value.length; j++) {
                 var o = value[j];
                 if(o.day) {
+                  //If there is no catalogue code
+                  if(o.catalogueCode === "&nbsp;") { o.catalogueCode = "(No code)"; }
+
                   elements.offerings.append( '<li>'+ 
-                    convertTerm(o.term) + "/" + o.location.campus + " " + o.type + ": "+ convertWeekDay(o.day) + " at " + convertTime(o.startTime) + 
-                    ' [ <a class="catalogueCode" title="'+i+"-"+j+'">' + o.catalogueCode + "</a> ]" + 
+                    '<span class="term">' + convertTerm(o.term) + '</span>/<span class="campus">' + o.location.campus + "</span> " + o.type +
+                    ': <span class="day">'+ convertWeekDay(o.day) + "</span> at " + convertTime(o.startTime) + 
+                    ' <input type="checkbox" class="catalogueCode" id="check-'+i+"-"+j+'" title="'+i+"-"+j+'"/><label for="check-'+i+"-"+j+'">'+o.catalogueCode+'</label>' + 
                     "</li>" );
                 }
               }//for
@@ -160,18 +403,25 @@ $.ajax({
       } //for
 
     //Stores all user's courses
-    var userCourses = new Array();
-
-    $(".catalogueCode").click(function(e){
-      e.preventDefault();
+    var userCourses;
+    var cookie = readCookie("ysdn_courses");
+    if(cookie) {
+      console.log("cookie", cookie);
+      userCourses = $.parseJSON(cookie);
+      makeTimeTable(userCourses);
+    } else {
+      userCourses = new Array();
+      createCookie("ysdn_courses",userCourses,7);
+      console.log(readCookie("ysdn_courses"));
+    }
+    
+    $(".catalogueCode").button().click(function(e){
       var dataCode = this.title;
       var inArray = jQuery.inArray(dataCode, userCourses);
       if(inArray === -1) {
         userCourses.push(dataCode);
-        $(this).addClass("on");
       } else {
         userCourses.splice(inArray, 1);
-        $(this).removeClass("on");
       }
 
       console.log(userCourses);
@@ -179,27 +429,174 @@ $.ajax({
       
     });
 
+    //Reset: 
+    $("#reset").button().click(function(e) {
+      e.preventDefault();
+      userCourses = new Array();
+      createCookie("ysdn_courses",userCourses,7);
+      $("#custom-courses ul").html("");
+      $("input.catalogueCode").each(function(item) {
+        $(this).attr("checked", false).next().removeClass("ui-state-active");
+      });
+      makeTimeTable(userCourses);
+    });
+
+     //Add Custom Course
+    $("#add-course-submit").button().click(function(e) {
+      e.preventDefault();
+      var results = $(this).parent().find("input, select");
+      var obj = new Object();
+      var buttonID = "custom-" + $("#custom-courses li").length;
+
+      $.each(results, function(item) {
+        obj[ $(results[item]).attr("name") ] = $(results[item]).val();
+      });
+      //For hiding reference
+      obj.id = buttonID;
+
+      if(obj.title !== "" && obj.startTime !== "") {
+        userCourses.push(obj);
+        makeTimeTable(userCourses);
+
+      }//if
+    });
+
+
+    //Search
+    $("#search-courses").autocomplete({
+      source: autocompleteList,
+      focus: function( event, ui ) {
+        $( "#search-courses" ).val( ui.item.label );
+        return false;
+      },
+      select: function( event, ui ) {
+        $("#window").scrollTo("#row-" + (ui.item.index), 200);
+        return false;
+      }
+    });
+
+
+    // Show all before sort
+    $("#container .row").addClass('on');
+    $("#container .row li").addClass('on');
+
+    //Sorting
+    $(".sort-options").buttonset();
+
+    $(".sort-options input").change(function(e) {   
+      var searchObj = {
+        courseCode: [], //Checks for the year (1,2,3 or 4)
+        day: [] //Checks for the day of the week
+      }
+      var checkedEls = $(".sort-options input:checked");
+
+      //Create the search object
+      $.each(checkedEls, function(match) {
+        var type = $(checkedEls[match]).parent().attr("for");
+        searchObj[type].push(checkedEls[match].title);
+      });
+     
+      //Reset: hide all;
+      $("#container .row").removeClass('on');
+      $("#container .row li").removeClass('on');
+
+       //Filter each setting
+        $.each(searchObj, function(code) {
+          var query;
+          if(code === "courseCode") {
+            //No courseCode filter
+            if ( searchObj[code].length < 1 ) {
+              $("#container .row").addClass('on');
+            } else {
+              $("#container .row").filter(function() {
+                query = $(this).find("span.courseCode").html().split("")[0];
+                if( ($.inArray(query, searchObj[code])) !== -1 ) {
+                  return true;
+                }
+              }).addClass('on');
+            }
+          } else if(code === "day") {
+            $("#container .row li").removeClass('on');
+
+            if ( searchObj[code].length < 1 ) {
+              $("#container .row li").addClass('on');
+            } else {
+              $("#container .row.on").removeClass('on').addClass('target');
+              $("#container .row.target li").filter(function() {
+                query = $(this).find("span.day").html();
+                if( ($.inArray(query, searchObj[code])) !== -1 ) {
+                  return true;
+                }
+              //Show all matches, as well as their parents
+              }).addClass('on').parent().parent().addClass('on');
+              $("#container .target").removeClass('target');
+            }
+          }
+        });
+      
+    }); //.change
+
     function makeTimeTable(courses) {
       //Reset schedule
       makeSchedule();
+      //Update Cookie
+      createCookie("ysdn_courses",userCourses,7);
+      console.log(readCookie("ysdn_courses"));
+      //Reset course list and custom buttons
+      $("#myCourses ul").html("");
+      $("#custom-courses").html("");
 
       for(var c = 0; c < courses.length; c++) {
-        var dataCode = courses[c].split("-");
-        var courseName = data[dataCode[0]].title;
-        var selection = data[dataCode[0]].offerings[dataCode[1]];
-
-        //Add data
-        if(selection.term === "F" || selection.term === "W") {
-          var query = "#calendar-"+ selection.term + " .contents ." + convertWeekDay(selection.day);
-          $(query).append("<span>" + convertTime(selection.startTime) + "<br /> " + courseName + "</span>");
+        if(typeof courses[c] === "string") {
+          var dataCode = courses[c].split("-");
+          var courseName = data[dataCode[0]].title;
+          var courseCode = "YSDN " + data[dataCode[0]].courseCode;
+          var selection = data[dataCode[0]].offerings[dataCode[1]];
+          var courseDay = convertWeekDay(selection.day);
+          var startTime = convertTime(selection.startTime);
+          var id = courses[c];
         } else {
-          var query1 = "#calendar-F" + " .contents ." + convertWeekDay(selection.day);
-          var query2 = "#calendar-W" + " .contents ." + convertWeekDay(selection.day);
-          $(query1).append("<span>" + convertTime(selection.startTime) + "<br /> " + courseName + "</span>");
-          $(query2).append("<span>" + convertTime(selection.startTime) + "<br /> " + courseName + "</span>");
+          //it's a custom course
+          var courseName = courses[c].title;
+          var courseCode = "";
+          var selection = new Object();
+            selection.term = courses[c].term;
+            selection.catalogueCode = 'custom';
+          var startTime = courses[c].startTime;
+          var courseDay = courses[c].day;
+          var id = courses[c].id;
+          //Make the button for the custom course;
+          $("#custom-courses").append('<li><input class="add-course-button" type="checkbox" checked="true" title="1" id="'+ id + '" /><label for="'+id+'">'+courseName+'</label></li>');
         }
-      }
-    }
+          
+          var myCourseText = '<li for="'+id+'">' + courseCode + " " + courseName + ": " + 
+              courseDay.substring(0,3) + " at " + startTime + " [" + selection.catalogueCode + "]</li>"
+
+          //Add data
+          if(selection.term === "F" || selection.term === "W") {
+            var query = "#calendar-"+ selection.term + " .contents ." + courseDay;
+            $(query).append('<span for="' + id + '">'+ startTime + "<br /> " + courseName + "</span>");
+            //Add to list
+            $("#myCourses ul." + selection.term).append(myCourseText);
+          } else {
+            var query1 = "#calendar-F" + " .contents ." + courseDay;
+            var query2 = "#calendar-W" + " .contents ." + courseDay;
+            $(query1).append('<span for="'+ id + '">'+ startTime + "<br /> " + courseName + "</span>");
+            $(query2).append('<span for="'+ id + '">'+ startTime + "<br /> " + courseName + "</span>");
+            //Add to list
+            $("#myCourses ul").append(myCourseText);
+          }
+      }//for
+      $("#custom-courses").find('.add-course-button').button().change(function(e) {
+          if($(this).is(":checked")) {
+            $('li[for="'+ this.id + '"], span[for="' + this.id + '"]').show();
+          } else {
+            //Hide the custom stuff
+            $('li[for="'+ this.id + '"], span[for="'+ this.id + '"]').hide();
+          }
+        });
+
+    }//makeTimeTable
 
   }//ajax
 
@@ -217,9 +614,9 @@ function makeSchedule() {
   //Create each day
   for(var day=0; day<5; day++) {
     var dayName = convertNumberToDay(day+1);
-    $("#calendar-F .titles").append('<div class="' + dayName + '-title">'+ dayName +'</div>');
+    $("#calendar-F .titles").append('<div class="' + dayName + '-title"><span>'+ dayName +'</span></div>');
     $("#calendar-F .contents").append('<div class="' + dayName + '">'+'</div>');
-    $("#calendar-W .titles").append('<div class="' + dayName + '-title">'+ dayName +'</div>');
+    $("#calendar-W .titles").append('<div class="' + dayName + '-title"><span>'+ dayName +'</span></div>');
     $("#calendar-W .contents").append('<div class="' + dayName + '">'+'</div>');
   }
 }
@@ -281,6 +678,33 @@ function convertTime(t) {
     return hour + ":" + min + " " + amPm;
   }
 }
+
+function createCookie(name,value,days) {
+  if (days) {
+    var date = new Date();
+    date.setTime(date.getTime()+(days*24*60*60*1000));
+    var expires = "; expires="+date.toGMTString();
+  }
+  else var expires = "";
+  var encodedValue = JSON.stringify(value);
+  document.cookie = name+"="+encodedValue+expires+"; path=/";
+}
+
+function readCookie(name) {
+  var nameEQ = name + "=";
+  var ca = document.cookie.split(';');
+  for(var i=0;i < ca.length;i++) {
+    var c = ca[i];
+    while (c.charAt(0)==' ') c = c.substring(1,c.length);
+    if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+  }
+  return null;
+}
+
+function eraseCookie(name) {
+  createCookie(name,"",-1);
+}
+
 </script>
 </body>
 </html>
