@@ -1,0 +1,2881 @@
+[
+    {
+        "title": "Visual Language",
+        "credits": "3.00",
+        "courseCode": "1001",
+        "offerings": [
+            {
+                "term": "F",
+                "section": "A",
+                "type": "LAB  01",
+                "day": "W",
+                "startTime": "8:30",
+                "duration": "240",
+                "location": {
+                    "campus": "York",
+                    "room": "TEL 4028"
+                },
+                "catalogueCode": "N94N02"
+            },
+            {
+                "term": "F",
+                "section": "A",
+                "type": "PRAC 01",
+                "day": "",
+                "startTime": "0:00",
+                "duration": "0",
+                "location": {
+                    "campus": "",
+                    "room": " "
+                },
+                "catalogueCode": "&nbsp;"
+            },
+            {
+                "term": "F",
+                "section": "A",
+                "type": "LAB  02",
+                "day": "W",
+                "startTime": "8:30",
+                "duration": "240",
+                "location": {
+                    "campus": "York",
+                    "room": "TEL 4031"
+                },
+                "catalogueCode": "N94N03"
+            },
+            {
+                "term": "F",
+                "section": "A",
+                "type": "LAB  03",
+                "day": "W",
+                "startTime": "8:30",
+                "duration": "240",
+                "location": {
+                    "campus": "York",
+                    "room": "TEL 4034"
+                },
+                "catalogueCode": "N94N04"
+            },
+            {
+                "term": "F",
+                "section": "A",
+                "type": "LAB  04",
+                "day": "R",
+                "startTime": "16:30",
+                "duration": "240",
+                "location": {
+                    "campus": "York",
+                    "room": "TEL 4034"
+                },
+                "catalogueCode": "N94N05"
+            },
+            {
+                "term": "F",
+                "section": "G",
+                "type": "LAB  01",
+                "day": "W",
+                "startTime": "9:00",
+                "duration": "240",
+                "location": {
+                    "campus": "Sheridan",
+                    "room": "J219"
+                },
+                "catalogueCode": "H41W02"
+            },
+            {
+                "term": "F",
+                "section": "G",
+                "type": "PRAC 01",
+                "day": "",
+                "startTime": "0:00",
+                "duration": "0",
+                "location": {
+                    "campus": "",
+                    "room": " "
+                },
+                "catalogueCode": "&nbsp;"
+            },
+            {
+                "term": "F",
+                "section": "G",
+                "type": "LAB  02",
+                "day": "W",
+                "startTime": "9:00",
+                "duration": "240",
+                "location": {
+                    "campus": "Sheridan",
+                    "room": "J223"
+                },
+                "catalogueCode": "H41W03"
+            },
+            {
+                "term": "F",
+                "section": "G",
+                "type": "LAB  03",
+                "day": "W",
+                "startTime": "14:00",
+                "duration": "240",
+                "location": {
+                    "campus": "Sheridan",
+                    "room": "J219"
+                },
+                "catalogueCode": "H41W04"
+            }
+        ]
+    },
+    {
+        "title": "Design &amp; Image",
+        "credits": "3.00",
+        "courseCode": "1002",
+        "offerings": [
+            {
+                "term": "W",
+                "section": "M",
+                "type": "LAB  01",
+                "day": "W",
+                "startTime": "8:30",
+                "duration": "240",
+                "location": {
+                    "campus": "York",
+                    "room": "TEL 4031"
+                },
+                "catalogueCode": "R35Q02"
+            },
+            {
+                "term": "W",
+                "section": "M",
+                "type": "PRAC 01",
+                "day": "",
+                "startTime": "0:00",
+                "duration": "0",
+                "location": {
+                    "campus": "",
+                    "room": " "
+                },
+                "catalogueCode": "&nbsp;"
+            },
+            {
+                "term": "W",
+                "section": "M",
+                "type": "LAB  02",
+                "day": "W",
+                "startTime": "8:30",
+                "duration": "240",
+                "location": {
+                    "campus": "York",
+                    "room": "TEL 4034"
+                },
+                "catalogueCode": "R35Q03"
+            },
+            {
+                "term": "W",
+                "section": "M",
+                "type": "LAB  03",
+                "day": "W",
+                "startTime": "12:30",
+                "duration": "240",
+                "location": {
+                    "campus": "York",
+                    "room": "TEL 4034"
+                },
+                "catalogueCode": "R35Q04"
+            },
+            {
+                "term": "W",
+                "section": "M",
+                "type": "LAB  04",
+                "day": "M",
+                "startTime": "16:30",
+                "duration": "240",
+                "location": {
+                    "campus": "York",
+                    "room": "TEL 4034"
+                },
+                "catalogueCode": "R35Q05"
+            },
+            {
+                "term": "W",
+                "section": "S",
+                "type": "LAB  01",
+                "day": "W",
+                "startTime": "9:00",
+                "duration": "240",
+                "location": {
+                    "campus": "Sheridan",
+                    "room": "J219"
+                },
+                "catalogueCode": "K82C02"
+            },
+            {
+                "term": "W",
+                "section": "S",
+                "type": "PRAC 01",
+                "day": "",
+                "startTime": "0:00",
+                "duration": "0",
+                "location": {
+                    "campus": "",
+                    "room": " "
+                },
+                "catalogueCode": "&nbsp;"
+            },
+            {
+                "term": "W",
+                "section": "S",
+                "type": "LAB  02",
+                "day": "W",
+                "startTime": "9:00",
+                "duration": "240",
+                "location": {
+                    "campus": "Sheridan",
+                    "room": "J223"
+                },
+                "catalogueCode": "K82C03"
+            },
+            {
+                "term": "W",
+                "section": "S",
+                "type": "LAB  03",
+                "day": "W",
+                "startTime": "14:00",
+                "duration": "240",
+                "location": {
+                    "campus": "Sheridan",
+                    "room": "J219"
+                },
+                "catalogueCode": "K82C04"
+            }
+        ]
+    },
+    {
+        "title": "Design &amp; Colour",
+        "credits": "3.00",
+        "courseCode": "1004",
+        "offerings": [
+            {
+                "term": "W",
+                "section": "M",
+                "type": "LAB  01",
+                "day": "F",
+                "startTime": "8:30",
+                "duration": "240",
+                "location": {
+                    "campus": "York",
+                    "room": "TEL 4031"
+                },
+                "catalogueCode": "N07Z02"
+            },
+            {
+                "term": "W",
+                "section": "M",
+                "type": "PRAC 01",
+                "day": "",
+                "startTime": "0:00",
+                "duration": "0",
+                "location": {
+                    "campus": "",
+                    "room": " "
+                },
+                "catalogueCode": "&nbsp;"
+            },
+            {
+                "term": "W",
+                "section": "M",
+                "type": "LAB  02",
+                "day": "F",
+                "startTime": "8:30",
+                "duration": "240",
+                "location": {
+                    "campus": "York",
+                    "room": "TEL 4034"
+                },
+                "catalogueCode": "N07Z03"
+            }
+        ]
+    },
+    {
+        "title": "Typography 1",
+        "credits": "3.00",
+        "courseCode": "1005",
+        "offerings": [
+            {
+                "term": "F",
+                "section": "A",
+                "type": "LAB  01",
+                "day": "W",
+                "startTime": "12:30",
+                "duration": "240",
+                "location": {
+                    "campus": "York",
+                    "room": "TEL 4028"
+                },
+                "catalogueCode": "G54A02"
+            },
+            {
+                "term": "F",
+                "section": "A",
+                "type": "PRAC 01",
+                "day": "",
+                "startTime": "0:00",
+                "duration": "0",
+                "location": {
+                    "campus": "",
+                    "room": " "
+                },
+                "catalogueCode": "&nbsp;"
+            },
+            {
+                "term": "F",
+                "section": "A",
+                "type": "LAB  02",
+                "day": "W",
+                "startTime": "12:30",
+                "duration": "240",
+                "location": {
+                    "campus": "York",
+                    "room": "TEL 4031"
+                },
+                "catalogueCode": "G54A03"
+            },
+            {
+                "term": "F",
+                "section": "A",
+                "type": "LAB  03",
+                "day": "W",
+                "startTime": "12:30",
+                "duration": "240",
+                "location": {
+                    "campus": "York",
+                    "room": "TEL 4034"
+                },
+                "catalogueCode": "G54A04"
+            },
+            {
+                "term": "F",
+                "section": "G",
+                "type": "LAB  01",
+                "day": "W",
+                "startTime": "9:00",
+                "duration": "240",
+                "location": {
+                    "campus": "Sheridan",
+                    "room": "SCA318"
+                },
+                "catalogueCode": "A01J02"
+            },
+            {
+                "term": "F",
+                "section": "G",
+                "type": "PRAC 01",
+                "day": "",
+                "startTime": "0:00",
+                "duration": "0",
+                "location": {
+                    "campus": "",
+                    "room": " "
+                },
+                "catalogueCode": "&nbsp;"
+            },
+            {
+                "term": "F",
+                "section": "G",
+                "type": "LAB  02",
+                "day": "W",
+                "startTime": "14:00",
+                "duration": "240",
+                "location": {
+                    "campus": "Sheridan",
+                    "room": "J223"
+                },
+                "catalogueCode": "A01J03"
+            },
+            {
+                "term": "F",
+                "section": "G",
+                "type": "LAB  03",
+                "day": "W",
+                "startTime": "14:00",
+                "duration": "240",
+                "location": {
+                    "campus": "Sheridan",
+                    "room": "SCA318"
+                },
+                "catalogueCode": "A01J04"
+            }
+        ]
+    },
+    {
+        "title": "Interactivity Design 1",
+        "credits": "3.00",
+        "courseCode": "1006",
+        "offerings": [
+            {
+                "term": "W",
+                "section": "M",
+                "type": "LAB  01",
+                "day": "W",
+                "startTime": "8:30",
+                "duration": "240",
+                "location": {
+                    "campus": "York",
+                    "room": "TEL 4028"
+                },
+                "catalogueCode": "B75H02"
+            },
+            {
+                "term": "W",
+                "section": "M",
+                "type": "PRAC 01",
+                "day": "",
+                "startTime": "0:00",
+                "duration": "0",
+                "location": {
+                    "campus": "",
+                    "room": " "
+                },
+                "catalogueCode": "&nbsp;"
+            },
+            {
+                "term": "W",
+                "section": "M",
+                "type": "LAB  02",
+                "day": "W",
+                "startTime": "12:30",
+                "duration": "240",
+                "location": {
+                    "campus": "York",
+                    "room": "TEL 4028"
+                },
+                "catalogueCode": "B75H03"
+            },
+            {
+                "term": "W",
+                "section": "M",
+                "type": "LAB  03",
+                "day": "W",
+                "startTime": "12:30",
+                "duration": "240",
+                "location": {
+                    "campus": "York",
+                    "room": "TEL 4031"
+                },
+                "catalogueCode": "B75H04"
+            },
+            {
+                "term": "W",
+                "section": "S",
+                "type": "LAB  01",
+                "day": "W",
+                "startTime": "9:00",
+                "duration": "240",
+                "location": {
+                    "campus": "Sheridan",
+                    "room": "SCA318"
+                },
+                "catalogueCode": "S22P02"
+            },
+            {
+                "term": "W",
+                "section": "S",
+                "type": "PRAC 01",
+                "day": "",
+                "startTime": "0:00",
+                "duration": "0",
+                "location": {
+                    "campus": "",
+                    "room": " "
+                },
+                "catalogueCode": "&nbsp;"
+            },
+            {
+                "term": "W",
+                "section": "S",
+                "type": "LAB  02",
+                "day": "W",
+                "startTime": "14:00",
+                "duration": "240",
+                "location": {
+                    "campus": "Sheridan",
+                    "room": "J223"
+                },
+                "catalogueCode": "S22P03"
+            },
+            {
+                "term": "W",
+                "section": "S",
+                "type": "LAB  03",
+                "day": "W",
+                "startTime": "14:00",
+                "duration": "240",
+                "location": {
+                    "campus": "Sheridan",
+                    "room": "SCA318"
+                },
+                "catalogueCode": "S22P04"
+            }
+        ]
+    },
+    {
+        "title": "Introduction to Design: Practice and Appreciation (for non-majors)",
+        "credits": "3.00",
+        "courseCode": "1010",
+        "offerings": [
+            {
+                "term": "W",
+                "section": "M",
+                "type": "INTR 01",
+                "day": "",
+                "startTime": "0:00",
+                "duration": "0",
+                "location": {
+                    "campus": "",
+                    "room": " "
+                },
+                "catalogueCode": "&nbsp;"
+            },
+            {
+                "term": "W",
+                "section": "M",
+                "type": "TUTR 01",
+                "day": "",
+                "startTime": "0:00",
+                "duration": "0",
+                "location": {
+                    "campus": "",
+                    "room": " "
+                },
+                "catalogueCode": "M09P02"
+            },
+            {
+                "term": "W",
+                "section": "M",
+                "type": "TUTR 02",
+                "day": "",
+                "startTime": "0:00",
+                "duration": "0",
+                "location": {
+                    "campus": "",
+                    "room": " "
+                },
+                "catalogueCode": "M09P03"
+            },
+            {
+                "term": "W",
+                "section": "M",
+                "type": "TUTR 03",
+                "day": "",
+                "startTime": "0:00",
+                "duration": "0",
+                "location": {
+                    "campus": "",
+                    "room": " "
+                },
+                "catalogueCode": "M09P04"
+            }
+        ]
+    },
+    {
+        "title": "Design and Contemporary Culture",
+        "credits": "3.00",
+        "courseCode": "1900",
+        "offerings": [
+            {
+                "term": "F",
+                "section": "A",
+                "type": "LECT 01",
+                "day": "F",
+                "startTime": "12:30",
+                "duration": "120",
+                "location": {
+                    "campus": "York",
+                    "room": "ACW 206"
+                },
+                "catalogueCode": "&nbsp;"
+            },
+            {
+                "term": "F",
+                "section": "A",
+                "type": "TUTR 01",
+                "day": "F",
+                "startTime": "14:30",
+                "duration": "60",
+                "location": {
+                    "campus": "York",
+                    "room": "ACW 104"
+                },
+                "catalogueCode": "X97E02"
+            },
+            {
+                "term": "F",
+                "section": "A",
+                "type": "TUTR 02",
+                "day": "F",
+                "startTime": "15:30",
+                "duration": "60",
+                "location": {
+                    "campus": "York",
+                    "room": "ACW 104"
+                },
+                "catalogueCode": "X97E03"
+            },
+            {
+                "term": "F",
+                "section": "A",
+                "type": "TUTR 03",
+                "day": "F",
+                "startTime": "14:30",
+                "duration": "60",
+                "location": {
+                    "campus": "York",
+                    "room": "ACW 209"
+                },
+                "catalogueCode": "X97E04"
+            },
+            {
+                "term": "F",
+                "section": "A",
+                "type": "TUTR 04",
+                "day": "F",
+                "startTime": "15:30",
+                "duration": "60",
+                "location": {
+                    "campus": "York",
+                    "room": "ACW 209"
+                },
+                "catalogueCode": "X97E05"
+            },
+            {
+                "term": "F",
+                "section": "A",
+                "type": "TUTR 05",
+                "day": "F",
+                "startTime": "14:30",
+                "duration": "60",
+                "location": {
+                    "campus": "York",
+                    "room": "ACW 302"
+                },
+                "catalogueCode": "X97E06"
+            },
+            {
+                "term": "F",
+                "section": "A",
+                "type": "TUTR 06",
+                "day": "F",
+                "startTime": "15:30",
+                "duration": "60",
+                "location": {
+                    "campus": "York",
+                    "room": "ACW 302"
+                },
+                "catalogueCode": "X97E07"
+            },
+            {
+                "term": "F",
+                "section": "A",
+                "type": "TUTR 07",
+                "day": "F",
+                "startTime": "14:30",
+                "duration": "60",
+                "location": {
+                    "campus": "York",
+                    "room": "ACW 304"
+                },
+                "catalogueCode": "X97E08"
+            },
+            {
+                "term": "F",
+                "section": "A",
+                "type": "TUTR 08",
+                "day": "F",
+                "startTime": "15:30",
+                "duration": "60",
+                "location": {
+                    "campus": "York",
+                    "room": "ACW 304"
+                },
+                "catalogueCode": "X97E09"
+            },
+            {
+                "term": "F",
+                "section": "A",
+                "type": "TUTR 09",
+                "day": "F",
+                "startTime": "14:30",
+                "duration": "60",
+                "location": {
+                    "campus": "York",
+                    "room": "ACW 305"
+                },
+                "catalogueCode": "X97E10"
+            },
+            {
+                "term": "F",
+                "section": "A",
+                "type": "TUTR 10",
+                "day": "F",
+                "startTime": "15:30",
+                "duration": "60",
+                "location": {
+                    "campus": "York",
+                    "room": "ACW 305"
+                },
+                "catalogueCode": "X97E11"
+            },
+            {
+                "term": "F",
+                "section": "A",
+                "type": "TUTR 11",
+                "day": "F",
+                "startTime": "14:30",
+                "duration": "60",
+                "location": {
+                    "campus": "York",
+                    "room": "ACW 008"
+                },
+                "catalogueCode": "X97E12"
+            },
+            {
+                "term": "F",
+                "section": "A",
+                "type": "TUTR 12",
+                "day": "F",
+                "startTime": "15:30",
+                "duration": "60",
+                "location": {
+                    "campus": "York",
+                    "room": "ACW 008"
+                },
+                "catalogueCode": "X97E13"
+            }
+        ]
+    },
+    {
+        "title": "Typography 2",
+        "credits": "3.00",
+        "courseCode": "2003",
+        "offerings": [
+            {
+                "term": "F",
+                "section": "A",
+                "type": "LAB  01",
+                "day": "R",
+                "startTime": "8:30",
+                "duration": "240",
+                "location": {
+                    "campus": "York",
+                    "room": "TEL 4031"
+                },
+                "catalogueCode": "Q48R02"
+            },
+            {
+                "term": "F",
+                "section": "A",
+                "type": "PRAC 01",
+                "day": "",
+                "startTime": "0:00",
+                "duration": "0",
+                "location": {
+                    "campus": "",
+                    "room": " "
+                },
+                "catalogueCode": "&nbsp;"
+            },
+            {
+                "term": "F",
+                "section": "A",
+                "type": "LAB  02",
+                "day": "R",
+                "startTime": "16:30",
+                "duration": "240",
+                "location": {
+                    "campus": "York",
+                    "room": "TEL 4031"
+                },
+                "catalogueCode": "Q48R03"
+            },
+            {
+                "term": "F",
+                "section": "A",
+                "type": "LAB  03",
+                "day": "R",
+                "startTime": "8:30",
+                "duration": "240",
+                "location": {
+                    "campus": "York",
+                    "room": "TEL 4034"
+                },
+                "catalogueCode": "Q48R04"
+            },
+            {
+                "term": "F",
+                "section": "G",
+                "type": "LAB  01",
+                "day": "M",
+                "startTime": "13:30",
+                "duration": "240",
+                "location": {
+                    "campus": "Sheridan",
+                    "room": "J219"
+                },
+                "catalogueCode": "J95D02"
+            },
+            {
+                "term": "F",
+                "section": "G",
+                "type": "PRAC 01",
+                "day": "",
+                "startTime": "0:00",
+                "duration": "0",
+                "location": {
+                    "campus": "",
+                    "room": " "
+                },
+                "catalogueCode": "&nbsp;"
+            },
+            {
+                "term": "F",
+                "section": "G",
+                "type": "LAB  02",
+                "day": "R",
+                "startTime": "9:00",
+                "duration": "240",
+                "location": {
+                    "campus": "Sheridan",
+                    "room": "J219"
+                },
+                "catalogueCode": "J95D03"
+            },
+            {
+                "term": "F",
+                "section": "G",
+                "type": "LAB  03",
+                "day": "R",
+                "startTime": "13:30",
+                "duration": "240",
+                "location": {
+                    "campus": "Sheridan",
+                    "room": "J219"
+                },
+                "catalogueCode": "J95D04"
+            }
+        ]
+    },
+    {
+        "title": "Communication Design 1 ",
+        "credits": "3.00",
+        "courseCode": "2004",
+        "offerings": [
+            {
+                "term": "F",
+                "section": "A",
+                "type": "LAB  01",
+                "day": "F",
+                "startTime": "8:30",
+                "duration": "240",
+                "location": {
+                    "campus": "York",
+                    "room": "TEL 4028"
+                },
+                "catalogueCode": "D42M02"
+            },
+            {
+                "term": "F",
+                "section": "A",
+                "type": "PRAC 01",
+                "day": "",
+                "startTime": "0:00",
+                "duration": "0",
+                "location": {
+                    "campus": "",
+                    "room": " "
+                },
+                "catalogueCode": "&nbsp;"
+            },
+            {
+                "term": "F",
+                "section": "A",
+                "type": "LAB  02",
+                "day": "F",
+                "startTime": "8:30",
+                "duration": "240",
+                "location": {
+                    "campus": "York",
+                    "room": "TEL 4031"
+                },
+                "catalogueCode": "D42M03"
+            },
+            {
+                "term": "F",
+                "section": "A",
+                "type": "LAB  03",
+                "day": "F",
+                "startTime": "8:30",
+                "duration": "240",
+                "location": {
+                    "campus": "York",
+                    "room": "TEL 4034"
+                },
+                "catalogueCode": "D42M04"
+            },
+            {
+                "term": "F",
+                "section": "G",
+                "type": "LAB  01",
+                "day": "T",
+                "startTime": "9:00",
+                "duration": "240",
+                "location": {
+                    "campus": "Sheridan",
+                    "room": "J219"
+                },
+                "catalogueCode": "T89U02"
+            },
+            {
+                "term": "F",
+                "section": "G",
+                "type": "PRAC 01",
+                "day": "",
+                "startTime": "0:00",
+                "duration": "0",
+                "location": {
+                    "campus": "",
+                    "room": " "
+                },
+                "catalogueCode": "&nbsp;"
+            },
+            {
+                "term": "F",
+                "section": "G",
+                "type": "LAB  02",
+                "day": "T",
+                "startTime": "9:00",
+                "duration": "240",
+                "location": {
+                    "campus": "Sheridan",
+                    "room": "J223"
+                },
+                "catalogueCode": "T89U03"
+            },
+            {
+                "term": "F",
+                "section": "G",
+                "type": "LAB  03",
+                "day": "T",
+                "startTime": "17:00",
+                "duration": "240",
+                "location": {
+                    "campus": "Sheridan",
+                    "room": "J219"
+                },
+                "catalogueCode": "T89U04"
+            }
+        ]
+    },
+    {
+        "title": "Interactivity Design 2",
+        "credits": "3.00",
+        "courseCode": "2005",
+        "offerings": [
+            {
+                "term": "F",
+                "section": "A",
+                "type": "LAB  01",
+                "day": "R",
+                "startTime": "8:30",
+                "duration": "240",
+                "location": {
+                    "campus": "York",
+                    "room": "TEL 4028"
+                },
+                "catalogueCode": "E87S02"
+            },
+            {
+                "term": "F",
+                "section": "A",
+                "type": "PRAC 01",
+                "day": "",
+                "startTime": "0:00",
+                "duration": "0",
+                "location": {
+                    "campus": "",
+                    "room": " "
+                },
+                "catalogueCode": "&nbsp;"
+            },
+            {
+                "term": "F",
+                "section": "A",
+                "type": "LAB  02",
+                "day": "R",
+                "startTime": "12:30",
+                "duration": "240",
+                "location": {
+                    "campus": "York",
+                    "room": "TEL 4028"
+                },
+                "catalogueCode": "E87S03"
+            },
+            {
+                "term": "F",
+                "section": "A",
+                "type": "LAB  03",
+                "day": "R",
+                "startTime": "12:30",
+                "duration": "240",
+                "location": {
+                    "campus": "York",
+                    "room": "TEL 4034"
+                },
+                "catalogueCode": "E87S04"
+            },
+            {
+                "term": "F",
+                "section": "G",
+                "type": "LAB  01",
+                "day": "T",
+                "startTime": "17:00",
+                "duration": "240",
+                "location": {
+                    "campus": "Sheridan",
+                    "room": "J223"
+                },
+                "catalogueCode": "V34D02"
+            },
+            {
+                "term": "F",
+                "section": "G",
+                "type": "PRAC 01",
+                "day": "",
+                "startTime": "0:00",
+                "duration": "0",
+                "location": {
+                    "campus": "",
+                    "room": " "
+                },
+                "catalogueCode": "&nbsp;"
+            },
+            {
+                "term": "F",
+                "section": "G",
+                "type": "LAB  02",
+                "day": "R",
+                "startTime": "9:00",
+                "duration": "240",
+                "location": {
+                    "campus": "Sheridan",
+                    "room": "J223"
+                },
+                "catalogueCode": "V34D03"
+            },
+            {
+                "term": "F",
+                "section": "G",
+                "type": "LAB  03",
+                "day": "R",
+                "startTime": "13:30",
+                "duration": "240",
+                "location": {
+                    "campus": "Sheridan",
+                    "room": "J223"
+                },
+                "catalogueCode": "V34D04"
+            }
+        ]
+    },
+    {
+        "title": "Typography 3",
+        "credits": "3.00",
+        "courseCode": "2007",
+        "offerings": [
+            {
+                "term": "W",
+                "section": "M",
+                "type": "LAB  01",
+                "day": "R",
+                "startTime": "12:30",
+                "duration": "240",
+                "location": {
+                    "campus": "York",
+                    "room": "TEL 4031"
+                },
+                "catalogueCode": "N36G02"
+            },
+            {
+                "term": "W",
+                "section": "M",
+                "type": "PRAC 01",
+                "day": "",
+                "startTime": "0:00",
+                "duration": "0",
+                "location": {
+                    "campus": "",
+                    "room": " "
+                },
+                "catalogueCode": "&nbsp;"
+            },
+            {
+                "term": "W",
+                "section": "M",
+                "type": "LAB  02",
+                "day": "R",
+                "startTime": "12:30",
+                "duration": "240",
+                "location": {
+                    "campus": "York",
+                    "room": "TEL 4034"
+                },
+                "catalogueCode": "N36G03"
+            },
+            {
+                "term": "W",
+                "section": "M",
+                "type": "LAB  03",
+                "day": "R",
+                "startTime": "16:30",
+                "duration": "240",
+                "location": {
+                    "campus": "York",
+                    "room": "TEL 4034"
+                },
+                "catalogueCode": "N36G04"
+            },
+            {
+                "term": "W",
+                "section": "S",
+                "type": "LAB  01",
+                "day": "R",
+                "startTime": "9:00",
+                "duration": "240",
+                "location": {
+                    "campus": "Sheridan",
+                    "room": "J219"
+                },
+                "catalogueCode": "G83P02"
+            },
+            {
+                "term": "W",
+                "section": "S",
+                "type": "PRAC 01",
+                "day": "",
+                "startTime": "0:00",
+                "duration": "0",
+                "location": {
+                    "campus": "",
+                    "room": " "
+                },
+                "catalogueCode": "&nbsp;"
+            },
+            {
+                "term": "W",
+                "section": "S",
+                "type": "LAB  02",
+                "day": "R",
+                "startTime": "13:30",
+                "duration": "240",
+                "location": {
+                    "campus": "Sheridan",
+                    "room": "J219"
+                },
+                "catalogueCode": "G83P03"
+            },
+            {
+                "term": "W",
+                "section": "S",
+                "type": "LAB  03",
+                "day": "R",
+                "startTime": "13:30",
+                "duration": "240",
+                "location": {
+                    "campus": "Sheridan",
+                    "room": "J223"
+                },
+                "catalogueCode": "G83P04"
+            }
+        ]
+    },
+    {
+        "title": "Information Design 1",
+        "credits": "3.00",
+        "courseCode": "2008",
+        "offerings": [
+            {
+                "term": "W",
+                "section": "M",
+                "type": "LAB  01",
+                "day": "R",
+                "startTime": "12:30",
+                "duration": "240",
+                "location": {
+                    "campus": "York",
+                    "room": "TEL 4028"
+                },
+                "catalogueCode": "W79J02"
+            },
+            {
+                "term": "W",
+                "section": "M",
+                "type": "PRAC 01",
+                "day": "",
+                "startTime": "0:00",
+                "duration": "0",
+                "location": {
+                    "campus": "",
+                    "room": " "
+                },
+                "catalogueCode": "&nbsp;"
+            },
+            {
+                "term": "W",
+                "section": "M",
+                "type": "LAB  02",
+                "day": "R",
+                "startTime": "8:30",
+                "duration": "240",
+                "location": {
+                    "campus": "York",
+                    "room": "TEL 4031"
+                },
+                "catalogueCode": "W79J03"
+            },
+            {
+                "term": "W",
+                "section": "M",
+                "type": "LAB  03",
+                "day": "R",
+                "startTime": "8:30",
+                "duration": "240",
+                "location": {
+                    "campus": "York",
+                    "room": "TEL 4034"
+                },
+                "catalogueCode": "W79J04"
+            },
+            {
+                "term": "W",
+                "section": "S",
+                "type": "LAB  01",
+                "day": "R",
+                "startTime": "9:00",
+                "duration": "240",
+                "location": {
+                    "campus": "Sheridan",
+                    "room": "J223"
+                },
+                "catalogueCode": "Q26S02"
+            },
+            {
+                "term": "W",
+                "section": "S",
+                "type": "PRAC 01",
+                "day": "",
+                "startTime": "0:00",
+                "duration": "0",
+                "location": {
+                    "campus": "",
+                    "room": " "
+                },
+                "catalogueCode": "&nbsp;"
+            },
+            {
+                "term": "W",
+                "section": "S",
+                "type": "LAB  02",
+                "day": "R",
+                "startTime": "9:00",
+                "duration": "240",
+                "location": {
+                    "campus": "Sheridan",
+                    "room": "SCA318"
+                },
+                "catalogueCode": "Q26S03"
+            },
+            {
+                "term": "W",
+                "section": "S",
+                "type": "LAB  03",
+                "day": "R",
+                "startTime": "13:30",
+                "duration": "240",
+                "location": {
+                    "campus": "Sheridan",
+                    "room": "SCA318"
+                },
+                "catalogueCode": "Q26S04"
+            }
+        ]
+    },
+    {
+        "title": "3D Design",
+        "credits": "3.00",
+        "courseCode": "2010",
+        "offerings": [
+            {
+                "term": "F",
+                "section": "G",
+                "type": "PRAC 01",
+                "day": "M",
+                "startTime": "9:00",
+                "duration": "240",
+                "location": {
+                    "campus": "Sheridan",
+                    "room": "J208"
+                },
+                "catalogueCode": "G03J01"
+            },
+            {
+                "term": "W",
+                "section": "S",
+                "type": "LAB  01",
+                "day": "M",
+                "startTime": "9:00",
+                "duration": "240",
+                "location": {
+                    "campus": "Sheridan",
+                    "room": "J208"
+                },
+                "catalogueCode": "W50R02"
+            },
+            {
+                "term": "W",
+                "section": "S",
+                "type": "PRAC 01",
+                "day": "",
+                "startTime": "0:00",
+                "duration": "0",
+                "location": {
+                    "campus": "",
+                    "room": " "
+                },
+                "catalogueCode": "&nbsp;"
+            },
+            {
+                "term": "W",
+                "section": "S",
+                "type": "LAB  02",
+                "day": "T",
+                "startTime": "9:00",
+                "duration": "240",
+                "location": {
+                    "campus": "Sheridan",
+                    "room": "J208"
+                },
+                "catalogueCode": "W50R03"
+            }
+        ]
+    },
+    {
+        "title": "Drawing for Design",
+        "credits": "3.00",
+        "courseCode": "2012",
+        "offerings": [
+            {
+                "term": "W",
+                "section": "M",
+                "type": "LAB  01",
+                "day": "M",
+                "startTime": "8:30",
+                "duration": "240",
+                "location": {
+                    "campus": "York",
+                    "room": "TEL 4031"
+                },
+                "catalogueCode": "J44M01"
+            },
+            {
+                "term": "W",
+                "section": "M",
+                "type": "LAB  02",
+                "day": "F",
+                "startTime": "12:30",
+                "duration": "240",
+                "location": {
+                    "campus": "York",
+                    "room": "TEL 4031"
+                },
+                "catalogueCode": "J44M02"
+            }
+        ]
+    },
+    {
+        "title": "Materials and Methods",
+        "credits": "3.00",
+        "courseCode": "2013",
+        "offerings": [
+            {
+                "term": "W",
+                "section": "S",
+                "type": "PRAC 01",
+                "day": "T",
+                "startTime": "9:00",
+                "duration": "240",
+                "location": {
+                    "campus": "Sheridan",
+                    "room": "J223"
+                },
+                "catalogueCode": "K02T01"
+            }
+        ]
+    },
+    {
+        "title": "History of Design",
+        "credits": "3.00",
+        "courseCode": "2102",
+        "offerings": [
+            {
+                "term": "F",
+                "section": "G",
+                "type": "LECT 01",
+                "day": "T",
+                "startTime": "13:00",
+                "duration": "120",
+                "location": {
+                    "campus": "Sheridan",
+                    "room": "SCA235"
+                },
+                "catalogueCode": "&nbsp;"
+            },
+            {
+                "term": "F",
+                "section": "G",
+                "type": "TUTR 01",
+                "day": "T",
+                "startTime": "15:00",
+                "duration": "60",
+                "location": {
+                    "campus": "Sheridan",
+                    "room": "J208"
+                },
+                "catalogueCode": "W03J02"
+            },
+            {
+                "term": "F",
+                "section": "G",
+                "type": "TUTR 02",
+                "day": "T",
+                "startTime": "15:00",
+                "duration": "60",
+                "location": {
+                    "campus": "Sheridan",
+                    "room": "J216"
+                },
+                "catalogueCode": "W03J03"
+            },
+            {
+                "term": "F",
+                "section": "G",
+                "type": "TUTR 03",
+                "day": "T",
+                "startTime": "16:00",
+                "duration": "60",
+                "location": {
+                    "campus": "Sheridan",
+                    "room": "J208"
+                },
+                "catalogueCode": "W03J04"
+            },
+            {
+                "term": "F",
+                "section": "G",
+                "type": "TUTR 04",
+                "day": "T",
+                "startTime": "16:00",
+                "duration": "60",
+                "location": {
+                    "campus": "Sheridan",
+                    "room": "J216"
+                },
+                "catalogueCode": "W03J05"
+            }
+        ]
+    },
+    {
+        "title": "Research in Design",
+        "credits": "3.00",
+        "courseCode": "2103",
+        "offerings": [
+            {
+                "term": "W",
+                "section": "S",
+                "type": "LECT 01",
+                "day": "T",
+                "startTime": "13:30",
+                "duration": "120",
+                "location": {
+                    "campus": "Sheridan",
+                    "room": "SCA235"
+                },
+                "catalogueCode": "&nbsp;"
+            },
+            {
+                "term": "W",
+                "section": "S",
+                "type": "TUTR 01",
+                "day": "T",
+                "startTime": "15:30",
+                "duration": "60",
+                "location": {
+                    "campus": "Sheridan",
+                    "room": "J208"
+                },
+                "catalogueCode": "C15V02"
+            },
+            {
+                "term": "W",
+                "section": "S",
+                "type": "TUTR 02",
+                "day": "T",
+                "startTime": "15:30",
+                "duration": "60",
+                "location": {
+                    "campus": "Sheridan",
+                    "room": "J219"
+                },
+                "catalogueCode": "C15V03"
+            },
+            {
+                "term": "W",
+                "section": "S",
+                "type": "TUTR 03",
+                "day": "T",
+                "startTime": "16:30",
+                "duration": "60",
+                "location": {
+                    "campus": "Sheridan",
+                    "room": "J208"
+                },
+                "catalogueCode": "C15V04"
+            },
+            {
+                "term": "W",
+                "section": "S",
+                "type": "TUTR 04",
+                "day": "T",
+                "startTime": "16:30",
+                "duration": "60",
+                "location": {
+                    "campus": "Sheridan",
+                    "room": "J219"
+                },
+                "catalogueCode": "C15V05"
+            }
+        ]
+    },
+    {
+        "title": "History of Media in Graphic Design",
+        "credits": "3.00",
+        "courseCode": "2105",
+        "offerings": [
+            {
+                "term": "W",
+                "section": "S",
+                "type": "LECT 01",
+                "day": "T",
+                "startTime": "9:00",
+                "duration": "180",
+                "location": {
+                    "campus": "Sheridan",
+                    "room": "G206"
+                },
+                "catalogueCode": "D49F01"
+            }
+        ]
+    },
+    {
+        "title": "History &amp; Development of Typography",
+        "credits": "3.00",
+        "courseCode": "2107",
+        "offerings": [
+            {
+                "term": "W",
+                "section": "M",
+                "type": "LECT 01",
+                "day": "W",
+                "startTime": "8:30",
+                "duration": "180",
+                "location": {
+                    "campus": "York",
+                    "room": "ACW 003"
+                },
+                "catalogueCode": "J73E01"
+            }
+        ]
+    },
+    {
+        "title": "Evolution of Information Design",
+        "credits": "3.00",
+        "courseCode": "2108",
+        "offerings": [
+            {
+                "term": "W",
+                "section": "S",
+                "type": "LECT 01",
+                "day": "M",
+                "startTime": "13:30",
+                "duration": "180",
+                "location": {
+                    "campus": "Sheridan",
+                    "room": "J219"
+                },
+                "catalogueCode": "T96N01"
+            }
+        ]
+    },
+    {
+        "title": "Critical Issues in Design",
+        "credits": "3.00",
+        "courseCode": "1101",
+        "offerings": [
+            {
+                "term": "F",
+                "section": "A",
+                "type": "LECT 01",
+                "day": "T",
+                "startTime": "11:30",
+                "duration": "180",
+                "location": {
+                    "campus": "York",
+                    "room": "ACW 004"
+                },
+                "catalogueCode": "X68M01"
+            }
+        ]
+    },
+    {
+        "title": "Design and Systems",
+        "credits": "3.00",
+        "courseCode": "3005",
+        "offerings": [
+            {
+                "term": "W",
+                "section": "M",
+                "type": "PRAC 01",
+                "day": "R",
+                "startTime": "16:30",
+                "duration": "240",
+                "location": {
+                    "campus": "York",
+                    "room": "TEL 4028"
+                },
+                "catalogueCode": "Z81M01"
+            },
+            {
+                "term": "W",
+                "section": "S",
+                "type": "PRAC 01",
+                "day": "T",
+                "startTime": "13:30",
+                "duration": "240",
+                "location": {
+                    "campus": "Sheridan",
+                    "room": "SCA318"
+                },
+                "catalogueCode": "X28V01"
+            }
+        ]
+    },
+    {
+        "title": "Typeface Design",
+        "credits": "3.00",
+        "courseCode": "3003",
+        "offerings": [
+            {
+                "term": "F",
+                "section": "A",
+                "type": "PRAC 01",
+                "day": "M",
+                "startTime": "12:30",
+                "duration": "240",
+                "location": {
+                    "campus": "York",
+                    "room": "TEL 4034"
+                },
+                "catalogueCode": "C91V01"
+            },
+            {
+                "term": "F",
+                "section": "G",
+                "type": "PRAC 01",
+                "day": "M",
+                "startTime": "9:00",
+                "duration": "240",
+                "location": {
+                    "campus": "Sheridan",
+                    "room": "SCA318"
+                },
+                "catalogueCode": "T38G01"
+            },
+            {
+                "term": "F",
+                "section": "H",
+                "type": "PRAC 01",
+                "day": "M",
+                "startTime": "13:30",
+                "duration": "240",
+                "location": {
+                    "campus": "Sheridan",
+                    "room": "SCA318"
+                },
+                "catalogueCode": "M85P01"
+            },
+            {
+                "term": "W",
+                "section": "M",
+                "type": "PRAC 01",
+                "day": "M",
+                "startTime": "16:30",
+                "duration": "240",
+                "location": {
+                    "campus": "York",
+                    "room": "TEL 4031"
+                },
+                "catalogueCode": "G32B01"
+            }
+        ]
+    },
+    {
+        "title": "Communication Design 2",
+        "credits": "3.00",
+        "courseCode": "3004",
+        "offerings": [
+            {
+                "term": "F",
+                "section": "A",
+                "type": "PRAC 01",
+                "day": "M",
+                "startTime": "8:30",
+                "duration": "240",
+                "location": {
+                    "campus": "York",
+                    "room": "TEL 4031"
+                },
+                "catalogueCode": "A30B01"
+            },
+            {
+                "term": "F",
+                "section": "B",
+                "type": "PRAC 01",
+                "day": "M",
+                "startTime": "8:30",
+                "duration": "240",
+                "location": {
+                    "campus": "York",
+                    "room": "TEL 4034"
+                },
+                "catalogueCode": "Q77J01"
+            },
+            {
+                "term": "F",
+                "section": "G",
+                "type": "PRAC 01",
+                "day": "T",
+                "startTime": "9:00",
+                "duration": "240",
+                "location": {
+                    "campus": "Sheridan",
+                    "room": "SCA318"
+                },
+                "catalogueCode": "K24S01"
+            },
+            {
+                "term": "F",
+                "section": "H",
+                "type": "PRAC 01",
+                "day": "T",
+                "startTime": "17:00",
+                "duration": "240",
+                "location": {
+                    "campus": "Sheridan",
+                    "room": "SCA318"
+                },
+                "catalogueCode": "D71E01"
+            },
+            {
+                "term": "W",
+                "section": "M",
+                "type": "PRAC 01",
+                "day": "M",
+                "startTime": "8:30",
+                "duration": "240",
+                "location": {
+                    "campus": "York",
+                    "room": "TEL 4034"
+                },
+                "catalogueCode": "U18M01"
+            }
+        ]
+    },
+    {
+        "title": "Interactivity Design 3",
+        "credits": "3.00",
+        "courseCode": "3006",
+        "offerings": [
+            {
+                "term": "F",
+                "section": "A",
+                "type": "PRAC 01",
+                "day": "R",
+                "startTime": "12:30",
+                "duration": "240",
+                "location": {
+                    "campus": "York",
+                    "room": "TEL 4031"
+                },
+                "catalogueCode": "E29Y01"
+            },
+            {
+                "term": "F",
+                "section": "G",
+                "type": "PRAC 01",
+                "day": "M",
+                "startTime": "13:30",
+                "duration": "240",
+                "location": {
+                    "campus": "Sheridan",
+                    "room": "J223"
+                },
+                "catalogueCode": "U76T01"
+            },
+            {
+                "term": "F",
+                "section": "H",
+                "type": "PRAC 01",
+                "day": "R",
+                "startTime": "9:00",
+                "duration": "240",
+                "location": {
+                    "campus": "Sheridan",
+                    "room": "SCA318"
+                },
+                "catalogueCode": "Z23F01"
+            }
+        ]
+    },
+    {
+        "title": "Information Design 2",
+        "credits": "3.00",
+        "courseCode": "3008",
+        "offerings": [
+            {
+                "term": "F",
+                "section": "A",
+                "type": "PRAC 01",
+                "day": "M",
+                "startTime": "16:30",
+                "duration": "240",
+                "location": {
+                    "campus": "York",
+                    "room": "TEL 4031"
+                },
+                "catalogueCode": "N65V01"
+            },
+            {
+                "term": "F",
+                "section": "B",
+                "type": "PRAC 01",
+                "day": "T",
+                "startTime": "16:30",
+                "duration": "240",
+                "location": {
+                    "campus": "York",
+                    "room": "TEL 4031"
+                },
+                "catalogueCode": "H12H01"
+            },
+            {
+                "term": "F",
+                "section": "G",
+                "type": "PRAC 01",
+                "day": "T",
+                "startTime": "13:00",
+                "duration": "240",
+                "location": {
+                    "campus": "Sheridan",
+                    "room": "J223"
+                },
+                "catalogueCode": "A59Q01"
+            },
+            {
+                "term": "F",
+                "section": "H",
+                "type": "PRAC 01",
+                "day": "F",
+                "startTime": "9:00",
+                "duration": "240",
+                "location": {
+                    "campus": "Sheridan",
+                    "room": "SCA318"
+                },
+                "catalogueCode": "R06B01"
+            }
+        ]
+    },
+    {
+        "title": "Time-based Communication",
+        "credits": "3.00",
+        "courseCode": "3009",
+        "offerings": [
+            {
+                "term": "F",
+                "section": "A",
+                "type": "PRAC 01",
+                "day": "M",
+                "startTime": "12:30",
+                "duration": "240",
+                "location": {
+                    "campus": "York",
+                    "room": "TEL 4031"
+                },
+                "catalogueCode": "Y69B01"
+            },
+            {
+                "term": "F",
+                "section": "B",
+                "type": "PRAC 01",
+                "day": "F",
+                "startTime": "12:30",
+                "duration": "240",
+                "location": {
+                    "campus": "York",
+                    "room": "TEL 4028"
+                },
+                "catalogueCode": "F16K01"
+            },
+            {
+                "term": "F",
+                "section": "G",
+                "type": "PRAC 01",
+                "day": "R",
+                "startTime": "13:30",
+                "duration": "240",
+                "location": {
+                    "campus": "Sheridan",
+                    "room": "SCA318"
+                },
+                "catalogueCode": "V63S01"
+            }
+        ]
+    },
+    {
+        "title": "Package Design",
+        "credits": "3.00",
+        "courseCode": "3010",
+        "offerings": [
+            {
+                "term": "F",
+                "section": "A",
+                "type": "PRAC 01",
+                "day": "M",
+                "startTime": "8:30",
+                "duration": "240",
+                "location": {
+                    "campus": "York",
+                    "room": "TEL 4028"
+                },
+                "catalogueCode": "S80W01"
+            },
+            {
+                "term": "F",
+                "section": "B",
+                "type": "PRAC 01",
+                "day": "M",
+                "startTime": "12:30",
+                "duration": "240",
+                "location": {
+                    "campus": "York",
+                    "room": "TEL 4028"
+                },
+                "catalogueCode": "M27X01"
+            },
+            {
+                "term": "W",
+                "section": "M",
+                "type": "PRAC 01",
+                "day": "M",
+                "startTime": "12:30",
+                "duration": "240",
+                "location": {
+                    "campus": "York",
+                    "room": "TEL 4031"
+                },
+                "catalogueCode": "F74R01"
+            },
+            {
+                "term": "W",
+                "section": "S",
+                "type": "PRAC 01",
+                "day": "T",
+                "startTime": "9:00",
+                "duration": "240",
+                "location": {
+                    "campus": "Sheridan",
+                    "room": "J219"
+                },
+                "catalogueCode": "W21C01"
+            }
+        ]
+    },
+    {
+        "title": "Editorial Design",
+        "credits": "3.00",
+        "courseCode": "3011",
+        "offerings": [
+            {
+                "term": "F",
+                "section": "A",
+                "type": "PRAC 01",
+                "day": "T",
+                "startTime": "16:30",
+                "duration": "240",
+                "location": {
+                    "campus": "York",
+                    "room": "TEL 4028"
+                },
+                "catalogueCode": "P10E01"
+            },
+            {
+                "term": "F",
+                "section": "G",
+                "type": "PRAC 01",
+                "day": "T",
+                "startTime": "13:00",
+                "duration": "240",
+                "location": {
+                    "campus": "Sheridan",
+                    "room": "J219"
+                },
+                "catalogueCode": "X57N01"
+            },
+            {
+                "term": "W",
+                "section": "M",
+                "type": "PRAC 01",
+                "day": "M",
+                "startTime": "12:30",
+                "duration": "240",
+                "location": {
+                    "campus": "York",
+                    "room": "TEL 4034"
+                },
+                "catalogueCode": "C04W01"
+            },
+            {
+                "term": "W",
+                "section": "S",
+                "type": "PRAC 01",
+                "day": "T",
+                "startTime": "9:00",
+                "duration": "240",
+                "location": {
+                    "campus": "Sheridan",
+                    "room": "SCA318"
+                },
+                "catalogueCode": "S51H01"
+            }
+        ]
+    },
+    {
+        "title": "Information Design 3",
+        "credits": "3.00",
+        "courseCode": "3012",
+        "offerings": [
+            {
+                "term": "W",
+                "section": "M",
+                "type": "PRAC 01",
+                "day": "M",
+                "startTime": "8:30",
+                "duration": "240",
+                "location": {
+                    "campus": "York",
+                    "room": "TEL 4028"
+                },
+                "catalogueCode": "N72Z01"
+            },
+            {
+                "term": "W",
+                "section": "S",
+                "type": "PRAC 01",
+                "day": "T",
+                "startTime": "13:30",
+                "duration": "240",
+                "location": {
+                    "campus": "Sheridan",
+                    "room": "J223"
+                },
+                "catalogueCode": "H19A01"
+            }
+        ]
+    },
+    {
+        "title": "Time-Based Communication 2",
+        "credits": "3.00",
+        "courseCode": "3013",
+        "offerings": [
+            {
+                "term": "W",
+                "section": "M",
+                "type": "PRAC 01",
+                "day": "T",
+                "startTime": "12:30",
+                "duration": "240",
+                "location": {
+                    "campus": "York",
+                    "room": "TEL 4028"
+                },
+                "catalogueCode": "N43W01"
+            },
+            {
+                "term": "W",
+                "section": "N",
+                "type": "PRAC 01",
+                "day": "R",
+                "startTime": "8:30",
+                "duration": "240",
+                "location": {
+                    "campus": "York",
+                    "room": "TEL 4028"
+                },
+                "catalogueCode": "G90X01"
+            },
+            {
+                "term": "W",
+                "section": "S",
+                "type": "PRAC 01",
+                "day": "M",
+                "startTime": "13:30",
+                "duration": "240",
+                "location": {
+                    "campus": "Sheridan",
+                    "room": "J223"
+                },
+                "catalogueCode": "A37R01"
+            }
+        ]
+    },
+    {
+        "title": "Contemporary Problems in Design",
+        "credits": "3.00",
+        "courseCode": "3102",
+        "offerings": [
+            {
+                "term": "F",
+                "section": "G",
+                "type": "LECT 01",
+                "day": "F",
+                "startTime": "13:30",
+                "duration": "180",
+                "location": {
+                    "campus": "Sheridan",
+                    "room": "J208"
+                },
+                "catalogueCode": "K53K01"
+            }
+        ]
+    },
+    {
+        "title": "Design for Public Awareness:  Investigation, Identification and Integration in Design Communication",
+        "credits": "3.00",
+        "courseCode": "3104",
+        "offerings": [
+            {
+                "term": "W",
+                "section": "M",
+                "type": "LECT 01",
+                "day": "M",
+                "startTime": "8:30",
+                "duration": "180",
+                "location": {
+                    "campus": "York",
+                    "room": "ACW 303"
+                },
+                "catalogueCode": "Y98Q01"
+            }
+        ]
+    },
+    {
+        "title": "Image and Influence: Graphics in the 20th Century",
+        "credits": "3.00",
+        "courseCode": "3106",
+        "offerings": [
+            {
+                "term": "F",
+                "section": "A",
+                "type": "LECT 01",
+                "day": "F",
+                "startTime": "8:30",
+                "duration": "180",
+                "location": {
+                    "campus": "York",
+                    "room": "ACW 303"
+                },
+                "catalogueCode": "F45C01"
+            }
+        ]
+    },
+    {
+        "title": "Design, Dissent, and the Public Sphere",
+        "credits": "3.00",
+        "courseCode": "3108",
+        "offerings": [
+            {
+                "term": "F",
+                "section": "A",
+                "type": "LECT 01",
+                "day": "M",
+                "startTime": "8:30",
+                "duration": "180",
+                "location": {
+                    "campus": "York",
+                    "room": "ACW 303"
+                },
+                "catalogueCode": "K60D01"
+            }
+        ]
+    },
+    {
+        "title": "Design Internship",
+        "credits": "3.00",
+        "courseCode": "3111",
+        "offerings": [
+            {
+                "term": "W",
+                "section": "M",
+                "type": "LECT 01",
+                "day": "W",
+                "startTime": "17:30",
+                "duration": "180",
+                "location": {
+                    "campus": "York",
+                    "room": "ACW 006"
+                },
+                "catalogueCode": "F56B01"
+            }
+        ]
+    },
+    {
+        "title": "Type in Motion",
+        "credits": "3.00",
+        "courseCode": "4002",
+        "offerings": [
+            {
+                "term": "W",
+                "section": "M",
+                "type": "PRAC 01",
+                "day": "T",
+                "startTime": "16:30",
+                "duration": "240",
+                "location": {
+                    "campus": "York",
+                    "room": "TEL 4028"
+                },
+                "catalogueCode": "N14H01"
+            },
+            {
+                "term": "W",
+                "section": "S",
+                "type": "PRAC 01",
+                "day": "M",
+                "startTime": "9:00",
+                "duration": "240",
+                "location": {
+                    "campus": "Sheridan",
+                    "room": "SCA318"
+                },
+                "catalogueCode": "G61Q01"
+            },
+            {
+                "term": "W",
+                "section": "T",
+                "type": "PRAC 01",
+                "day": "F",
+                "startTime": "9:00",
+                "duration": "240",
+                "location": {
+                    "campus": "Sheridan",
+                    "room": "SCA318"
+                },
+                "catalogueCode": "A08C01"
+            },
+            {
+                "term": "W",
+                "section": "U",
+                "type": "PRAC 01",
+                "day": "F",
+                "startTime": "13:30",
+                "duration": "240",
+                "location": {
+                    "campus": "Sheridan",
+                    "room": "SCA318"
+                },
+                "catalogueCode": "Q55K01"
+            }
+        ]
+    },
+    {
+        "title": "Interactive System Design",
+        "credits": "3.00",
+        "courseCode": "4003",
+        "offerings": [
+            {
+                "term": "W",
+                "section": "S",
+                "type": "PRAC 01",
+                "day": "F",
+                "startTime": "13:30",
+                "duration": "240",
+                "location": {
+                    "campus": "Sheridan",
+                    "room": "J223"
+                },
+                "catalogueCode": "G28S01"
+            }
+        ]
+    },
+    {
+        "title": "Design Workshop",
+        "credits": "6.00",
+        "courseCode": "4004",
+        "offerings": [
+            {
+                "term": "Y",
+                "section": "A",
+                "type": "PRAC 01",
+                "day": "T",
+                "startTime": "8:30",
+                "duration": "240",
+                "location": {
+                    "campus": "York",
+                    "room": "TEL 4031"
+                },
+                "catalogueCode": "E58D01"
+            },
+            {
+                "term": "Y",
+                "section": "B",
+                "type": "PRAC 01",
+                "day": "T",
+                "startTime": "8:30",
+                "duration": "240",
+                "location": {
+                    "campus": "York",
+                    "room": "TEL 4034"
+                },
+                "catalogueCode": "V05Y01"
+            },
+            {
+                "term": "Y",
+                "section": "C",
+                "type": "PRAC 01",
+                "day": "T",
+                "startTime": "12:30",
+                "duration": "240",
+                "location": {
+                    "campus": "York",
+                    "room": "TEL 4034"
+                },
+                "catalogueCode": "Z52U01"
+            },
+            {
+                "term": "Y",
+                "section": "G",
+                "type": "PRAC 01",
+                "day": "M",
+                "startTime": "9:00",
+                "duration": "240",
+                "location": {
+                    "campus": "Sheridan",
+                    "room": "J219"
+                },
+                "catalogueCode": "H99G01"
+            },
+            {
+                "term": "Y",
+                "section": "H",
+                "type": "PRAC 01",
+                "day": "M",
+                "startTime": "9:00",
+                "duration": "240",
+                "location": {
+                    "campus": "Sheridan",
+                    "room": "J223"
+                },
+                "catalogueCode": "B46P01"
+            },
+            {
+                "term": "Y",
+                "section": "J",
+                "type": "PRAC 01",
+                "day": "F",
+                "startTime": "9:00",
+                "duration": "240",
+                "location": {
+                    "campus": "Sheridan",
+                    "room": "J219"
+                },
+                "catalogueCode": "R93A01"
+            },
+            {
+                "term": "Y",
+                "section": "K",
+                "type": "PRAC 01",
+                "day": "F",
+                "startTime": "9:00",
+                "duration": "240",
+                "location": {
+                    "campus": "Sheridan",
+                    "room": "J223"
+                },
+                "catalogueCode": "Y40J01"
+            }
+        ]
+    },
+    {
+        "title": "Book Design",
+        "credits": "3.00",
+        "courseCode": "4005",
+        "offerings": [
+            {
+                "term": "F",
+                "section": "A",
+                "type": "PRAC 01",
+                "day": "W",
+                "startTime": "16:30",
+                "duration": "240",
+                "location": {
+                    "campus": "York",
+                    "room": "TEL 4034"
+                },
+                "catalogueCode": "H70Z01"
+            },
+            {
+                "term": "F",
+                "section": "G",
+                "type": "PRAC 01",
+                "day": "F",
+                "startTime": "13:30",
+                "duration": "240",
+                "location": {
+                    "campus": "Sheridan",
+                    "room": "J219"
+                },
+                "catalogueCode": "B17A01"
+            },
+            {
+                "term": "F",
+                "section": "H",
+                "type": "PRAC 01",
+                "day": "F",
+                "startTime": "13:30",
+                "duration": "240",
+                "location": {
+                    "campus": "Sheridan",
+                    "room": "J223"
+                },
+                "catalogueCode": "R64X01"
+            },
+            {
+                "term": "W",
+                "section": "M",
+                "type": "PRAC 01",
+                "day": "W",
+                "startTime": "16:30",
+                "duration": "240",
+                "location": {
+                    "campus": "York",
+                    "room": "TEL 4028"
+                },
+                "catalogueCode": "Y11R01"
+            }
+        ]
+    },
+    {
+        "title": "Sustainable Design",
+        "credits": "3.00",
+        "courseCode": "4006",
+        "offerings": [
+            {
+                "term": "F",
+                "section": "G",
+                "type": "PRAC 01",
+                "day": "F",
+                "startTime": "9:00",
+                "duration": "240",
+                "location": {
+                    "campus": "Sheridan",
+                    "room": "J208"
+                },
+                "catalogueCode": "Q84C01"
+            }
+        ]
+    },
+    {
+        "title": "Corporate Identity Design",
+        "credits": "3.00",
+        "courseCode": "4007",
+        "offerings": [
+            {
+                "term": "F",
+                "section": "A",
+                "type": "PRAC 01",
+                "day": "W",
+                "startTime": "16:30",
+                "duration": "240",
+                "location": {
+                    "campus": "York",
+                    "room": "TEL 4028"
+                },
+                "catalogueCode": "V92K01"
+            },
+            {
+                "term": "F",
+                "section": "G",
+                "type": "PRAC 01",
+                "day": "F",
+                "startTime": "13:30",
+                "duration": "240",
+                "location": {
+                    "campus": "Sheridan",
+                    "room": "SCA318"
+                },
+                "catalogueCode": "P39T01"
+            },
+            {
+                "term": "W",
+                "section": "M",
+                "type": "PRAC 01",
+                "day": "W",
+                "startTime": "16:30",
+                "duration": "240",
+                "location": {
+                    "campus": "York",
+                    "room": "TEL 4034"
+                },
+                "catalogueCode": "X86F01"
+            },
+            {
+                "term": "W",
+                "section": "S",
+                "type": "PRAC 01",
+                "day": "F",
+                "startTime": "13:30",
+                "duration": "240",
+                "location": {
+                    "campus": "Sheridan",
+                    "room": "J219"
+                },
+                "catalogueCode": "C33Z01"
+            }
+        ]
+    },
+    {
+        "title": "Information Design 4",
+        "credits": "3.00",
+        "courseCode": "4008",
+        "offerings": [
+            {
+                "term": "W",
+                "section": "M",
+                "type": "PRAC 01",
+                "day": "T",
+                "startTime": "8:30",
+                "duration": "240",
+                "location": {
+                    "campus": "York",
+                    "room": "TEL 4028"
+                },
+                "catalogueCode": "K31Y01"
+            }
+        ]
+    },
+    {
+        "title": "Design in Interactive Environments",
+        "credits": "3.00",
+        "courseCode": "4009",
+        "offerings": [
+            {
+                "term": "F",
+                "section": "A",
+                "type": "PRAC 01",
+                "day": "T",
+                "startTime": "12:30",
+                "duration": "240",
+                "location": {
+                    "campus": "York",
+                    "room": "TEL 4031"
+                },
+                "catalogueCode": "Z01G01"
+            },
+            {
+                "term": "W",
+                "section": "S",
+                "type": "PRAC 01",
+                "day": "F",
+                "startTime": "13:30",
+                "duration": "240",
+                "location": {
+                    "campus": "Sheridan",
+                    "room": "J223"
+                },
+                "catalogueCode": "G96J01"
+            }
+        ]
+    },
+    {
+        "title": "Advanced Package Design",
+        "credits": "3.00",
+        "courseCode": "4010",
+        "offerings": [
+            {
+                "term": "F",
+                "section": "A",
+                "type": "PRAC 01",
+                "day": "T",
+                "startTime": "8:30",
+                "duration": "240",
+                "location": {
+                    "campus": "York",
+                    "room": "TEL 4028"
+                },
+                "catalogueCode": "D20N01"
+            },
+            {
+                "term": "F",
+                "section": "B",
+                "type": "PRAC 01",
+                "day": "T",
+                "startTime": "12:30",
+                "duration": "240",
+                "location": {
+                    "campus": "York",
+                    "room": "TEL 4028"
+                },
+                "catalogueCode": "T67V01"
+            }
+        ]
+    },
+    {
+        "title": "Design Management",
+        "credits": "3.00",
+        "courseCode": "4102",
+        "offerings": [
+            {
+                "term": "W",
+                "section": "S",
+                "type": "LECT 01",
+                "day": "M",
+                "startTime": "9:00",
+                "duration": "180",
+                "location": {
+                    "campus": "Sheridan",
+                    "room": "B124"
+                },
+                "catalogueCode": "U47E01"
+            }
+        ]
+    },
+    {
+        "title": "Professional Aspects of Design",
+        "credits": "3.00",
+        "courseCode": "4104",
+        "offerings": [
+            {
+                "term": "Y",
+                "section": "G",
+                "type": "LECT 01",
+                "day": "M",
+                "startTime": "13:30",
+                "duration": "180",
+                "location": {
+                    "campus": "Sheridan",
+                    "room": "SCA235"
+                },
+                "catalogueCode": "X03W01"
+            }
+        ]
+    },
+    {
+        "title": "Independent Studies: Design Practicum",
+        "credits": "3.00",
+        "courseCode": "4900",
+        "offerings": [
+            {
+                "term": "F",
+                "section": "A",
+                "type": "ISTY 01",
+                "day": "",
+                "startTime": "0:00",
+                "duration": "0",
+                "location": {
+                    "campus": "",
+                    "room": " "
+                },
+                "catalogueCode": "W43B01"
+            },
+            {
+                "term": "F",
+                "section": "G",
+                "type": "ISTY 01",
+                "day": "",
+                "startTime": "0:00",
+                "duration": "0",
+                "location": {
+                    "campus": "",
+                    "room": " "
+                },
+                "catalogueCode": "P90K01"
+            },
+            {
+                "term": "W",
+                "section": "M",
+                "type": "ISTY 01",
+                "day": "",
+                "startTime": "0:00",
+                "duration": "0",
+                "location": {
+                    "campus": "",
+                    "room": " "
+                },
+                "catalogueCode": "J37T01"
+            },
+            {
+                "term": "W",
+                "section": "S",
+                "type": "ISTY 01",
+                "day": "",
+                "startTime": "0:00",
+                "duration": "0",
+                "location": {
+                    "campus": "",
+                    "room": " "
+                },
+                "catalogueCode": "C84F01"
+            }
+        ]
+    },
+    {
+        "title": "Independent Studies: Design Practicum",
+        "credits": "6.00",
+        "courseCode": "4900",
+        "offerings": [
+            {
+                "term": "Y",
+                "section": "A",
+                "type": "ISTY 01",
+                "day": "",
+                "startTime": "0:00",
+                "duration": "0",
+                "location": {
+                    "campus": "",
+                    "room": " "
+                },
+                "catalogueCode": "T31N01"
+            },
+            {
+                "term": "Y",
+                "section": "G",
+                "type": "ISTY 01",
+                "day": "",
+                "startTime": "0:00",
+                "duration": "0",
+                "location": {
+                    "campus": "",
+                    "room": " "
+                },
+                "catalogueCode": "M78W01"
+            }
+        ]
+    },
+    {
+        "title": "Independent Studies: Design Studies",
+        "credits": "3.00",
+        "courseCode": "4901",
+        "offerings": [
+            {
+                "term": "F",
+                "section": "A",
+                "type": "ISTY 01",
+                "day": "",
+                "startTime": "0:00",
+                "duration": "0",
+                "location": {
+                    "campus": "",
+                    "room": " "
+                },
+                "catalogueCode": "G25X01"
+            },
+            {
+                "term": "F",
+                "section": "G",
+                "type": "ISTY 01",
+                "day": "",
+                "startTime": "0:00",
+                "duration": "0",
+                "location": {
+                    "campus": "",
+                    "room": " "
+                },
+                "catalogueCode": "W72Q01"
+            },
+            {
+                "term": "W",
+                "section": "M",
+                "type": "ISTY 01",
+                "day": "",
+                "startTime": "0:00",
+                "duration": "0",
+                "location": {
+                    "campus": "",
+                    "room": " "
+                },
+                "catalogueCode": "Q19C01"
+            },
+            {
+                "term": "W",
+                "section": "S",
+                "type": "ISTY 01",
+                "day": "",
+                "startTime": "0:00",
+                "duration": "0",
+                "location": {
+                    "campus": "",
+                    "room": " "
+                },
+                "catalogueCode": "J66Y01"
+            }
+        ]
+    },
+    {
+        "title": "Independent Studies: Design Studies",
+        "credits": "6.00",
+        "courseCode": "4901",
+        "offerings": [
+            {
+                "term": "Y",
+                "section": "A",
+                "type": "ISTY 01",
+                "day": "",
+                "startTime": "0:00",
+                "duration": "0",
+                "location": {
+                    "campus": "",
+                    "room": " "
+                },
+                "catalogueCode": "D13U01"
+            },
+            {
+                "term": "Y",
+                "section": "G",
+                "type": "ISTY 01",
+                "day": "",
+                "startTime": "0:00",
+                "duration": "0",
+                "location": {
+                    "campus": "",
+                    "room": " "
+                },
+                "catalogueCode": "T60F01"
+            }
+        ]
+    }
+]

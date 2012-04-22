@@ -1,0 +1,119 @@
+<!-- Author: @k88hudson -->
+<html>
+<head>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+
+</head>
+<body>
+<div id="container">Hello</div>
+<script>
+
+var masterList = new Array();
+var container = document.getElementById("container");
+
+var totalCourseNum = 51;
+
+var run = function(x) {
+$.ajax({
+  url: x + ".html",
+  context: document.body,
+  success: function(doc){
+  	var nodeContainer = document.createElement("div");
+  	nodeContainer.id = "container-" + x;
+  	container.appendChild(nodeContainer);
+
+  	nodeContainer.innerHTML = doc;
+    var results = nodeContainer.querySelectorAll('td[bgcolor|="#CC0000"]');
+    
+	var courseList = new Object();
+
+	var title = nodeContainer.querySelectorAll('font[color|="#CC0000"]');
+	var titleParts = title.item(0).innerHTML.split("&nbsp;&nbsp;");
+
+	courseList.title = titleParts[1];
+	courseList.credits = titleParts[0].split(" ")[4];
+	courseList.courseCode = titleParts[0].split(" ")[1];
+
+	for(var i=0;i<results.length;i++){
+
+		var children = results[i].parentElement.parentElement.childNodes;
+		var term = children[0].firstChild.firstChild.firstChild.innerHTML.split(" ");
+		if(!courseList.offerings) {
+			courseList.offerings = new Array();
+		} 
+		var courses = children[3].firstChild.firstChild.firstChild.childNodes;
+
+		for(var j=1;j<courses.length;j++) {
+			var row = courses[j].childNodes;
+
+			courseList.offerings.push({});
+			var thisOfferings = courseList.offerings[courseList.offerings.length - 1]; 
+
+			thisOfferings.term = term[1];
+			thisOfferings.section = term[4];
+
+			for(var k=0;k<row.length;k++) {
+				if(k === 0) {
+					//Lab or Practicum number
+					text = row[k].innerHTML;
+					thisOfferings.type = text;
+				} else if ( k === 1) {
+					//The day, start time etc.
+					var table = row[k].firstChild;
+					thisOfferings.day = table.firstChild.firstChild.childNodes[0].innerHTML;
+					thisOfferings.startTime = table.firstChild.firstChild.childNodes[1].innerHTML;
+					thisOfferings.duration = table.firstChild.firstChild.childNodes[2].innerHTML;
+					thisOfferings.location = new Object();
+					thisOfferings.location.campus = table.firstChild.firstChild.childNodes[3].innerHTML.split("&nbsp;")[0];
+					thisOfferings.location.room = table.firstChild.firstChild.childNodes[3].innerHTML.split("&nbsp;")[1];
+					
+					//Remove Whitespace
+					if(thisOfferings.location.campus && thisOfferings.location.room) {
+						thisOfferings.location.campus = thisOfferings.location.campus.replace(/ /g,'');
+						thisOfferings.location.room = thisOfferings.location.room.replace(/ /g,'');
+
+						//Fix campus names
+						if(thisOfferings.location.campus === "ST") {
+							thisOfferings.location.campus = "Sheridan";
+						} else {
+							thisOfferings.location.room = thisOfferings.location.campus + " " + thisOfferings.location.room;
+							thisOfferings.location.campus = "York";
+						}
+
+					}
+					
+				} else if ( k === 2 ) {
+					//The Catalogue number
+					var text = row[k].innerHTML.replace("<br>", "");
+					thisOfferings.catalogueCode = text;
+				}
+			}
+		}
+	}
+
+	masterList[x-1] = courseList;
+
+	//Post data to file
+	if(x===totalCourseNum) {
+		$.post('save.php', { json : masterList }, function(e) {
+			console.log('status:');
+			console.log(e);
+		});
+	}
+	
+  }
+
+});
+
+} // run
+
+for(var f = 1; f <= totalCourseNum; f++) {
+	run(f);
+}
+
+console.log(masterList);
+
+
+</script>
+</body>
+</html>
