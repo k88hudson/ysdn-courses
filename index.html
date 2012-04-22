@@ -556,10 +556,12 @@ $.ajax({
           var courseName = data[dataCode[0]].title;
           var courseCode = "YSDN " + data[dataCode[0]].courseCode;
           var selection = data[dataCode[0]].offerings[dataCode[1]];
+          var courseLocation = selection.location.campus;
           var courseDay = convertWeekDay(selection.day);
           var startTime = convertTime(selection.startTime);
           var endTime = convertTime(getEndTime(startTime, selection.duration));
           var id = courses[c];
+          var buttonID = "check-" + courses[c];
         } else {
           //it's a custom course
           var courseName = courses[c].title;
@@ -567,30 +569,31 @@ $.ajax({
           var selection = new Object();
             selection.term = courses[c].term;
             selection.catalogueCode = 'custom';
+          var courseLocation = "York";
           var startTime = courses[c].startTime;
           var endTime = courses[c].endTime;
           var courseDay = courses[c].day;
           var id = courses[c].id;
           //Make the button for the custom course;
           $("#custom-courses").append('<li><input class="add-course-button" type="checkbox" checked="true" title="1" id="'+ id + '" /><label for="'+id+'">'+courseName+'</label></li>');
-        }
-          
-          console.log(endTime);
+        } 
+          $(buttonID).attr("checked", true);
+          $('label[for="'+buttonID+'"]').addClass("ui-state-active");
 
-          var myCourseText = '<li for="'+id+'">' + courseCode + " " + courseName + ": " + 
-              courseDay.substring(0,3) + " at " + startTime + " [" + selection.catalogueCode + "]</li>"
+          var myCourseText = '<li for="'+id+'">' + courseCode + " " + courseName + ": " +  startTime + " " +
+              courseDay.substring(0,3) + " at " + courseLocation + " [" + selection.catalogueCode + "]</li>"
 
           //Add data
           if(selection.term === "F" || selection.term === "W") {
             var query = "#calendar-"+ selection.term + " .contents ." + courseDay;
-            $(query).append('<span for="' + id + '">'+ startTime +"&ndash;<br />" + endTime + "<br /><strong>" + courseName + "</strong></span>");
+            $(query).append('<span for="' + id + '">'+ courseLocation + "<br />" + startTime +"&ndash;<br />" + endTime + "<br /><strong>" + courseName + "</strong></span>");
             //Add to list
             $("#myCourses ul." + selection.term).append(myCourseText);
           } else {
             var query1 = "#calendar-F" + " .contents ." + courseDay;
             var query2 = "#calendar-W" + " .contents ." + courseDay;
-            $(query1).append('<span for="' + id + '">'+ startTime +"&ndash;<br />" + endTime + "<br /><strong>" + courseName + "</strong></span>");
-            $(query2).append('<span for="' + id + '">'+ startTime +"&ndash;<br />" + endTime + "<br /><strong>" + courseName + "</strong></span>");
+            $(query1).append('<span for="' + id + '">'+ courseLocation + "<br />" + startTime +"&ndash;<br />" + endTime + "<br /><strong>" + courseName + "</strong></span>");
+            $(query2).append('<span for="' + id + '">'+ courseLocation + "<br />" + startTime +"&ndash;<br />" + endTime + "<br /><strong>" + courseName + "</strong></span>");
             //Add to list
             $("#myCourses ul").append(myCourseText);
           }
@@ -639,6 +642,7 @@ function getEndTime(startTime, duration) {
   endTotalMins = startMins + parseInt(duration);
   endHours = Math.floor(endTotalMins/60);
   endMins = endTotalMins % 60;
+  if(endMins<10) { endMins = "0" + endMins}
   return endHours + ":" + endMins;
 
 }
