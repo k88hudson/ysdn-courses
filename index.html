@@ -19,7 +19,7 @@ h3, h4 {
 }
 
 .catalogueCode {
-  font-family: Monaco;
+  font-family: Monaco, sans-serif;
   font-size: 12px;
   color: #F32520;
 }
@@ -31,13 +31,13 @@ ol li {
   margin-bottom: 1em;
 }
 .wrapper {
-  width: 1040px;
+  width: 1060px;
   margin: 10px auto;
 }
 
 .left-col, .right-col {
   width: 500px;
-  margin-right: 20px;
+  margin-right: 30px;
 }
 
 .left-col {
@@ -116,7 +116,7 @@ ol li {
 }
 
 #myCourses ul {
-  font-family: Monaco;
+  font-family: Monaco, sans-serif;
   font-size: 12px;
 }
 
@@ -227,6 +227,9 @@ height: 1%;
 
 @media print {
   * { background: transparent !important; color: black !important; box-shadow:none !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important; } /* Black prints faster: h5bp.com/s */
+  body {
+    font-family: sans-serif !important;
+  }
   a, a:visited { text-decoration: underline; }
   a[href]:after { content: " (" attr(href) ")"; }
   abbr[title]:after { content: " (" attr(title) ")"; }
@@ -244,10 +247,10 @@ height: 1%;
     width: 100%;
     margin-right: 0;
   }
-
-  #controls { display: none !important; }
+  #controls, #reset, #printme { display: none !important; }
   #window { max-height: none !important; padding: 0;}
-  .calendar .contents div span { padding: 15px;}
+  #myCourses ul { font-size: 100%;}
+  .calendar .contents div span { padding: 15px; margin: 10px 0;}
   form {display: none !important;}
 
 }
@@ -312,7 +315,8 @@ height: 1%;
   </div><!--right-col-->
   <div class="left-col">
     <p>This is a list of all YSDN courses scraped from yorku.ca. Download the raw data as JSON <a href="https://github.com/k88hudson/ysdn-courses/blob/master/data.json">here.</a></p>
-    <p>Disclaimer: The last time the scraper was run was April 22, 2012. This is an experiment, so use at your own risk. If you find an error/bug please let me know (Tweet at @k88hudson, or email me)</p>
+    <p>Disclaimer: The last time the scraper was run was April 22, 2012. This not official data, so use at your own risk.</p>
+    <p id="printme"><strong>Try printing me!</strong></p>
     <div id="controls">
       <div id="search"><label>Search:</label><input type="text" id="search-courses" /></div>
        <div class="sort-options" for="courseCode">
