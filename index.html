@@ -589,8 +589,8 @@ $.ajax({
           } else {
             var query1 = "#calendar-F" + " .contents ." + courseDay;
             var query2 = "#calendar-W" + " .contents ." + courseDay;
-            $(query1).append('<span for="'+ id + '">'+ startTime + "<br /> " + courseName + "</span>");
-            $(query2).append('<span for="'+ id + '">'+ startTime + "<br /> " + courseName + "</span>");
+            $(query1).append('<span for="' + id + '">'+ startTime +"&ndash;<br />" + endTime + "<br /><strong>" + courseName + "</strong></span>");
+            $(query2).append('<span for="' + id + '">'+ startTime +"&ndash;<br />" + endTime + "<br /><strong>" + courseName + "</strong></span>");
             //Add to list
             $("#myCourses ul").append(myCourseText);
           }
