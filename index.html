@@ -426,6 +426,7 @@ $.ajax({
         userCourses.push(dataCode);
       } else {
         userCourses.splice(inArray, 1);
+        $(this).next().removeClass("ui-state-active");
       }
 
       console.log(userCourses);
@@ -579,6 +580,7 @@ $.ajax({
         } 
           $(buttonID).attr("checked", true);
           $('label[for="'+buttonID+'"]').addClass("ui-state-active");
+           console.log(courseCode, 599);
 
           var myCourseText = '<li for="'+id+'">' + courseCode + " " + courseName + ": " +  startTime + " " +
               courseDay.substring(0,3) + " at " + courseLocation + " [" + selection.catalogueCode + "]</li>"
